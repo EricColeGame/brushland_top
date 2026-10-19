@@ -1,1 +1,508 @@
-{}
+{
+  "site": {
+    "name": "Brushland Wiki",
+    "shortName": "Brushland",
+    "tagline": "Guías, jugabilidad y novedades",
+    "description": "Descubre Brushland con guías para principiantes, consejos para construir reinos, mecánicas de pintura del terreno, detalles de plataformas, noticias de la demo y novedades de este acogedor juego sandbox.",
+    "legalNotice": "Wiki de fans independiente. Sin afiliación con Transhuman Design."
+  },
+  "nav": {
+    "home": "Inicio",
+    "menu": "Menú",
+    "toggleTheme": "Cambiar tema",
+    "guide": "Guía",
+    "mechanics": "Mecánicas",
+    "tutorial": "Tutorial",
+    "features": "Características",
+    "release": "Lanzamiento",
+    "community": "Comunidad",
+    "platforms": "Plataformas"
+  },
+  "home": {
+    "meta": {
+      "title": "Brushland Wiki – Guías, jugabilidad y novedades",
+      "description": "Descubre Brushland con guías para principiantes, consejos para construir reinos, mecánicas de pintura del terreno, detalles de plataformas, noticias de la demo y novedades de este acogedor juego sandbox."
+    },
+    "hero": {
+      "eyebrow": "Constructor de reinos sandbox y acogedor",
+      "title": "Brushland Wiki",
+      "description": "Descubre Brushland, un acogedor juego sandbox de construcción de reinos en el que pintas paisajes, das forma a ríos y montañas y ves crecer una aldea de cuento. Conoce sus mecánicas, consejos para principiantes, ideas de construcción, plataformas y las últimas novedades de lanzamiento.",
+      "stats": [
+        "Q1 2027 · Demo",
+        "Q2 2027 · Lanzamiento previsto",
+        "4 · Plataformas de PC previstas",
+        "Un jugador · Modo de juego"
+      ],
+      "primaryCta": "Guía para principiantes",
+      "secondaryCta": "Brushland en Steam",
+      "tertiaryCta": "Ver tráiler oficial",
+      "videoLabel": "Tráiler oficial de Brushland"
+    },
+    "updates": {
+      "title": "Últimas novedades",
+      "browse": "Ver todas las guías",
+      "viewAll": "Ver todo"
+    },
+    "start": {
+      "eyebrow": "Empieza aquí",
+      "title": "Tu viaje por Brushland",
+      "cards": [
+        {
+          "number": "1",
+          "title": "Guía para principiantes",
+          "description": "Pinta tu primer paisaje, coloca una casa y sigue el bucle inicial desde un terreno vacío hasta una aldea en crecimiento."
+        },
+        {
+          "number": "2",
+          "title": "Construcción de reinos",
+          "description": "Traza caminos, campos y zonas residenciales para que las casas evolucionen en iglesias, molinos y grandes monumentos."
+        },
+        {
+          "number": "3",
+          "title": "Pintura del terreno",
+          "description": "Combina hierba, roca, ríos y cascadas para crear distritos legibles y fronteras naturales antes de construir."
+        },
+        {
+          "number": "4",
+          "title": "Crecimiento de aldeanos",
+          "description": "Coloca un embarcadero en mar abierto, recibe a nuevos residentes y atiende sus peticiones para que el reino siga creciendo."
+        }
+      ]
+    },
+    "popular": {
+      "eyebrow": "Páginas populares",
+      "title": "Tendencias actuales",
+      "quickLinks": [
+        "Guía para principiantes",
+        "Pintura del terreno",
+        "Construcción de reinos",
+        "Lanzamiento y requisitos"
+      ],
+      "cards": [
+        {
+          "badge": "Principiante",
+          "title": "Guía para principiantes",
+          "description": "Pinta tu primer paisaje, forma una aldea y aprende el bucle inicial completo.",
+          "href": "/guide/brushland-beginner-guide"
+        },
+        {
+          "badge": "Popular",
+          "title": "Construcción de reinos",
+          "description": "Conecta caminos, campos y viviendas para que las casas se transformen en iglesias y castillos.",
+          "href": "/guide/brushland-kingdom-building"
+        },
+        {
+          "badge": "Popular",
+          "title": "Pintura del terreno",
+          "description": "Usa hierba, agua, montañas y caminos para crear distritos fáciles de leer.",
+          "href": "/guide/brushland-gameplay-guide"
+        },
+        {
+          "badge": "Popular",
+          "title": "Guía de aldeanos",
+          "description": "Sigue las llegadas, las rutinas diarias y las peticiones mientras crece tu asentamiento.",
+          "href": "/mechanics/brushland-settlement-management"
+        },
+        {
+          "badge": "Nuevo",
+          "title": "Construcción creativa",
+          "description": "Diseña un reino de cuento con una composición basada en el terreno y espacios bien pensados.",
+          "href": "/features/brushland-creative-building"
+        },
+        {
+          "badge": "Popular",
+          "title": "Fecha de lanzamiento",
+          "description": "Sigue la demo de Q1 2027 y el plan de lanzamiento de Brushland para Q2 2027.",
+          "href": "/release/brushland-release-date"
+        },
+        {
+          "badge": "Popular",
+          "title": "Requisitos para PC",
+          "description": "Consulta los requisitos mínimos para Windows, macOS, Linux y Steam Deck.",
+          "href": "/platforms/brushland-system-requirements"
+        },
+        {
+          "badge": "Nuevo",
+          "title": "Funciones de Steam",
+          "description": "Descubre Workshop, Cloud, los logros y el editor de niveles incluido.",
+          "href": "/release/brushland-steam"
+        },
+        {
+          "badge": "Nuevo",
+          "title": "Editor de niveles",
+          "description": "Crea paisajes y escenarios propios y compártelos con la comunidad.",
+          "href": "/features/brushland-creative-building"
+        }
+      ]
+    },
+    "aboutGame": {
+      "title": "¿Qué es Brushland?",
+      "paragraphs": [
+        "Brushland es un acogedor juego sandbox de construcción de reinos de Transhuman Design. En lugar de colocar edificios prefabricados desde un menú, pintas el terreno baldosa a baldosa: elevas montañas, abres ríos y trazas caminos, y luego ves cómo casas, granjas y castillos surgen del paisaje.",
+        "El juego gira en torno a un bucle relajado para un jugador, sin reloj ni estado de derrota. Los aldeanos llegan en barco, se instalan en los edificios que se forman y piden puentes, trabajo o mejores vistas. Los reinos terminados pueden recolorearse con 42 variantes de color o compartirse mediante códigos de texto; el editor de niveles incluido y Steam Workshop abren la puerta a mapas de la comunidad."
+      ],
+      "stats": [
+        {
+          "label": "Desarrollador",
+          "value": "Transhuman Design"
+        },
+        {
+          "label": "Género",
+          "value": "Sandbox acogedor"
+        },
+        {
+          "label": "Plataforma",
+          "value": "PC mediante Steam"
+        },
+        {
+          "label": "Demo",
+          "value": "Q1 2027"
+        },
+        {
+          "label": "Lanzamiento",
+          "value": "Q2 2027"
+        },
+        {
+          "label": "Modo de juego",
+          "value": "Un jugador"
+        },
+        {
+          "label": "Variantes de color",
+          "value": "42"
+        },
+        {
+          "label": "Editor de niveles",
+          "value": "Incluido"
+        }
+      ],
+      "cta": "Explorar todas las guías"
+    },
+    "explore": {
+      "title": "Explora Brushland Wiki",
+      "description": "Acompaña Brushland desde la primera pincelada hasta un reino próspero con guías sobre terreno, edificios, aldeanos, paletas, cómo compartir, el editor de niveles y los requisitos para PC.",
+      "modules": [
+        {
+          "order": 1,
+          "name": "Guía para principiantes de Brushland",
+          "description": "Aprende el bucle inicial: pinta un paisaje, forma un asentamiento, invita a los aldeanos y haz crecer tu primer reino.",
+          "href": "/guide/brushland-beginner-guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Pinta primero una amplia pradera y añade después formas de roca y montaña que enmarquen el futuro asentamiento."
+            },
+            {
+              "label": "2",
+              "detail": "Abre ríos y cascadas antes de los caminos para que el agua siga el desnivel que has pintado."
+            },
+            {
+              "label": "3",
+              "detail": "Reserva una gran zona plana para el núcleo de la aldea y conéctala con un camino principal sencillo."
+            },
+            {
+              "label": "4",
+              "detail": "Añade un embarcadero en mar abierto para invitar al primer grupo de aldeanos."
+            },
+            {
+              "label": "5",
+              "detail": "Observa dónde se forman las casas y atiende las peticiones de puentes, trabajo y viviendas con buenas vistas."
+            },
+            {
+              "label": "6",
+              "detail": "Perfecciona los bordes y amplía por zonas pequeñas en lugar de repintar todo el mapa de una vez."
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Guía de construcción de Brushland",
+          "description": "Crea aldeas, conecta edificios con caminos, rodea las casas de campos y convierte los asentamientos en reinos más grandes.",
+          "href": "/mechanics/brushland-building-mechanics",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Caminos",
+              "detail": "Los caminos conectan las puertas y organizan el movimiento por el asentamiento."
+            },
+            {
+              "label": "Campos",
+              "detail": "Los campos alrededor de una casa pueden hacer aparecer un molino con aspas giratorias."
+            },
+            {
+              "label": "Viviendas",
+              "detail": "Agrupa las casas dejando espacio para que las viviendas puedan crecer y convertirse en edificios mayores."
+            },
+            {
+              "label": "Iglesias",
+              "detail": "Una casa rodeada por completo de camino puede convertirse en una iglesia con campanario y aguja."
+            },
+            {
+              "label": "Castillos",
+              "detail": "El crecimiento sostenido puede levantar un castillo con torres redondas y puntiagudas."
+            },
+            {
+              "label": "Embarcaderos",
+              "detail": "Un embarcadero en mar abierto atrae barcos, nuevos aldeanos y peticiones recientes."
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Guía del terreno de Brushland",
+          "description": "Usa el terreno como base de cada distrito, desde amplias praderas y ríos hasta montañas que enmarcan y caminos que rematan el diseño.",
+          "href": "/guide/brushland-gameplay-guide",
+          "displayType": "tier-grid",
+          "highlights": [
+            {
+              "label": "S",
+              "detail": "La pradera es el lienzo principal donde aparecen las casas; píntala primero y mantenla despejada."
+            },
+            {
+              "label": "A",
+              "detail": "El agua separa distritos y crea puntos de encuentro; las cascadas marcan los cambios de altura."
+            },
+            {
+              "label": "B",
+              "detail": "Los bordes de roca y montaña enmarcan el reino y dan profundidad al horizonte."
+            },
+            {
+              "label": "C",
+              "detail": "Los caminos completan el diseño al conectar puertas, distritos y futuras mejoras."
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Guía de aldeanos de Brushland",
+          "description": "Sigue a los aldeanos desde su llegada hasta su vida diaria y usa sus peticiones para orientar la siguiente fase de crecimiento del asentamiento.",
+          "href": "/mechanics/brushland-settlement-management",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Llegada",
+              "detail": "Los aldeanos bajan de los barcos en los embarcaderos y recorren los caminos hasta sus nuevos hogares."
+            },
+            {
+              "label": "Hogares",
+              "detail": "Los residentes se mudan a los edificios que surgen del terreno pintado."
+            },
+            {
+              "label": "Rutina",
+              "detail": "Los aldeanos pescan, trabajan y hacen su vida diaria, lo que hace que el reino se sienta habitado."
+            },
+            {
+              "label": "Peticiones",
+              "detail": "Los residentes piden puentes, empleo y mejores vistas; atiéndelos para que el crecimiento continúe."
+            },
+            {
+              "label": "Crecimiento",
+              "detail": "Los barcos nuevos y los caminos más anchos demuestran que el asentamiento atrae a más gente."
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Paletas de colores de Brushland",
+          "description": "Usa las 42 variantes de color anunciadas para cambiar el aspecto de un reino terminado y su ambiente sin modificar el diseño.",
+          "href": "/mechanics/brushland-building-mechanics",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "42 variantes",
+              "detail": "Elige entre 42 variantes de color para cambiar el aspecto de un reino terminado."
+            },
+            {
+              "label": "Cambiar aspecto",
+              "detail": "Aplica una paleta cuando el diseño esté completo para renovar rápidamente su imagen."
+            },
+            {
+              "label": "Ambiente",
+              "detail": "La elección de la paleta cambia la atmósfera del mismo paisaje."
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Compartir reinos en Brushland",
+          "description": "Comparte un reino terminado mediante un código de texto corto y explora las opciones de Workshop y del editor para pasar tus creaciones.",
+          "href": "/release/brushland-steam",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Termina el paisaje y elige una de las 42 variantes de color."
+            },
+            {
+              "label": "2",
+              "detail": "Convierte el reino terminado en un código de texto corto."
+            },
+            {
+              "label": "3",
+              "detail": "Envía el código a un amigo como si fuera una carta, sin necesidad de transferir archivos."
+            },
+            {
+              "label": "4",
+              "detail": "Usa Steam Workshop o el editor de niveles para compartir mapas y escenarios propios."
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Editor de niveles de Brushland",
+          "description": "Usa el editor de niveles integrado y Steam Workshop para crear, personalizar y compartir nuevos entornos.",
+          "href": "/features/brushland-creative-building",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Editor",
+              "detail": "Crea paisajes iniciales y escenarios propios con el editor de niveles incluido."
+            },
+            {
+              "label": "Workshop",
+              "detail": "Publica y explora mapas de la comunidad mediante Steam Workshop."
+            },
+            {
+              "label": "Cloud",
+              "detail": "Steam Cloud mantiene tus reinos disponibles en distintos equipos."
+            },
+            {
+              "label": "Mapas",
+              "detail": "Los mapas creados por jugadores usan las mismas reglas de baldosas que el sandbox principal."
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Lanzamiento y requisitos del sistema de Brushland",
+          "description": "Consulta el calendario de lanzamiento previsto, las plataformas de PC compatibles y los requisitos mínimos de Brushland.",
+          "href": "/platforms/brushland-system-requirements",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "Windows",
+              "detail": "Windows 10 u 11 · Intel Core i3-8100 o AMD Ryzen 3 3200G · 4 GB de RAM · GPU compatible con DirectX 11 · 1 GB de almacenamiento"
+            },
+            {
+              "label": "macOS",
+              "detail": "macOS 12 Monterey o posterior · Intel Core i3 de cuatro núcleos a 3,6 GHz o Apple M1 · 4 GB de RAM · GPU Metal · 1 GB de almacenamiento"
+            },
+            {
+              "label": "Linux",
+              "detail": "Ubuntu 22.04 o 24.04 de 64 bits · Intel Core i3-8100 o AMD Ryzen 3 3200G · 4 GB de RAM · GPU Vulkan · 1 GB de almacenamiento"
+            },
+            {
+              "label": "Steam Deck",
+              "detail": "Steam Deck figura entre las plataformas de lanzamiento previstas para Brushland."
+            },
+            {
+              "label": "Q2 2027",
+              "detail": "El lanzamiento completo está previsto para Q2 2027, después de la demo de Q1 2027."
+            }
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "Preguntas frecuentes de Brushland",
+      "description": "Respuestas rápidas sobre la pintura del terreno, el crecimiento del reino, los planes de lanzamiento y las herramientas para compartir en Brushland.",
+      "items": [
+        {
+          "question": "¿Qué es Brushland?",
+          "answer": "Brushland es un acogedor juego sandbox de construcción de reinos de Transhuman Design. Pintas el terreno baldosa a baldosa y luego ves cómo casas, granjas y castillos crecen a partir del paisaje."
+        },
+        {
+          "question": "¿Cómo funciona la construcción en Brushland?",
+          "answer": "No colocas edificios desde un menú. En Brushland, las baldosas pintadas reaccionan a sus vecinas: los caminos pueden convertir una casa en iglesia, los campos pueden crear un molino y el crecimiento sostenido puede levantar un castillo."
+        },
+        {
+          "question": "¿Se puede fracasar en Brushland?",
+          "answer": "No. Brushland no tiene reloj ni estado de derrota, así que puedes experimentar, volver a pintar el terreno y hacer crecer un reino a tu ritmo."
+        },
+        {
+          "question": "¿Cuándo se lanza Brushland?",
+          "answer": "Está previsto que Brushland se lance en Q2 2027, después de una demo programada para Q1 2027. Las plataformas de lanzamiento indicadas son Windows, macOS, Linux y Steam Deck."
+        },
+        {
+          "question": "¿Cómo se comparte un reino de Brushland?",
+          "answer": "Un reino de Brushland terminado puede convertirse en un código de texto corto y enviarse a un amigo. Brushland también admite 42 variantes de color, Steam Workshop y un editor de niveles incluido."
+        },
+        {
+          "question": "¿Brushland es para un solo jugador?",
+          "answer": "Sí. Brushland está diseñado como una experiencia para un jugador, aunque los reinos terminados pueden compartirse con amigos."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "¿Listo para construir tu reino de Brushland?",
+      "description": "Descubre la pintura del terreno, el crecimiento de la aldea, los consejos para principiantes y los detalles del lanzamiento; añade Brushland a tu lista de deseos de Steam y únete a la comunidad oficial.",
+      "primary": "Jugar a Brushland en Steam",
+      "secondary": "Unirse al Discord oficial"
+    }
+  },
+  "guide": {
+    "overviewTitle": "Guías de Brushland",
+    "overviewDescription": "Guías prácticas de Brushland sobre pintura del terreno, construcción, progresión y tu primer reino."
+  },
+  "mechanics": {
+    "overviewTitle": "Mecánicas de Brushland",
+    "overviewDescription": "Cómo encajan la pintura del terreno, el crecimiento del asentamiento, los recursos y la gestión del reino en Brushland."
+  },
+  "tutorial": {
+    "overviewTitle": "Tutoriales de Brushland",
+    "overviewDescription": "Tutoriales paso a paso de Brushland para construir, expandir y recorrer tu primer reino."
+  },
+  "features": {
+    "overviewTitle": "Características de Brushland",
+    "overviewDescription": "Descubre la construcción creativa, el diseño sandbox, el juego tranquilo y las funciones de construcción de reinos de Brushland."
+  },
+  "release": {
+    "overviewTitle": "Novedades de lanzamiento de Brushland",
+    "overviewDescription": "Sigue los tráilers de Brushland, las novedades de Steam, las fechas de lanzamiento y los detalles confirmados."
+  },
+  "community": {
+    "overviewTitle": "Comunidad de Brushland",
+    "overviewDescription": "Encuentra centros de la comunidad de Brushland, debates en Discord y Reddit, y recursos para jugadores."
+  },
+  "platforms": {
+    "overviewTitle": "Plataformas de Brushland",
+    "overviewDescription": "Detalles de Brushland para PC y Steam, sistemas compatibles y requisitos mínimos."
+  },
+  "shared": {
+    "wikiNavigation": "Navegación del wiki",
+    "startHere": "Empieza aquí",
+    "startHereDescription": "¿Nuevo en Brushland? Aprende la pintura del terreno, el crecimiento del asentamiento y los primeros pasos hacia un reino.",
+    "browseGuides": "Ver todas las guías",
+    "updated": "Actualizado",
+    "playOnRoblox": "Jugar en Roblox",
+    "inThisSection": "En esta sección",
+    "tableOfContents": "Índice",
+    "nextSteps": "Siguientes pasos",
+    "needHelp": "¿Necesitas ayuda?",
+    "relatedReading": "Lecturas relacionadas",
+    "relatedGuides": "Guías relacionadas",
+    "readMore": "Leer más",
+    "officialMedia": "Contenido oficial",
+    "home": "Inicio",
+    "noGuidesAvailable": "Todavía no hay guías disponibles. ¡Vuelve pronto!"
+  },
+  "footer": {
+    "aboutTitle": "Brushland Wiki",
+    "about": "Brushland Wiki es un centro de guías independiente creado por fans que cubre la pintura del terreno, la construcción de reinos, los aldeanos, las plataformas y los detalles de lanzamiento para jugadores nuevos y veteranos.",
+    "quickLinks": "Enlaces rápidos",
+    "guides": "Guías",
+    "legal": "Legal",
+    "copyright": "2026 Brushland Wiki. Sin afiliación con Transhuman Design.",
+    "description": "Acogedor constructor de reinos sandbox para PC mediante Steam. Pinta el terreno y observa cómo crece tu reino.",
+    "playGame": "Jugar a Brushland en Steam",
+    "officialDiscord": "Discord oficial de Brushland",
+    "officialYoutube": "Transhuman Design en YouTube",
+    "vvBuilder": "Centro de la comunidad de Steam",
+    "beginnerGuide": "Guía para principiantes",
+    "mechanicsGuides": "Guías de mecánicas",
+    "featuresGuides": "Guías de características",
+    "platformsGuides": "Guías de plataformas",
+    "privacyPolicy": "Política de privacidad",
+    "termsOfService": "Términos del servicio"
+  }
+}

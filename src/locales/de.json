@@ -1,1 +1,508 @@
-{}
+{
+  "site": {
+    "name": "Brushland Wiki",
+    "shortName": "Brushland",
+    "tagline": "Guides, Gameplay & Release-News",
+    "description": "Entdecke Brushland mit Einsteiger-Guides, Tipps zum Königreichsaufbau, Geländemalerei, Plattformdetails, Demo-News und Updates zu diesem gemütlichen Sandbox-Spiel.",
+    "legalNotice": "Unabhängiges Fan-Wiki. Nicht mit Transhuman Design verbunden."
+  },
+  "nav": {
+    "home": "Startseite",
+    "menu": "Menü",
+    "toggleTheme": "Design wechseln",
+    "guide": "Guide",
+    "mechanics": "Mechaniken",
+    "tutorial": "Tutorial",
+    "features": "Features",
+    "release": "Release",
+    "community": "Community",
+    "platforms": "Plattformen"
+  },
+  "home": {
+    "meta": {
+      "title": "Brushland Wiki – Guides, Gameplay & Release-News",
+      "description": "Entdecke Brushland mit Einsteiger-Guides, Tipps zum Königreichsaufbau, Geländemalerei, Plattformdetails, Demo-News und Updates zu diesem gemütlichen Sandbox-Spiel."
+    },
+    "hero": {
+      "eyebrow": "Gemütlicher Sandbox-Königreichsaufbau",
+      "title": "Brushland Wiki",
+      "description": "Entdecke Brushland, ein gemütliches Sandbox-Spiel, in dem du Landschaften bemalst, Flüsse und Berge formst und ein Märchenreich wachsen siehst. Lerne Spielmechaniken, Einsteigertipps, Bauideen, Plattformdetails und die neuesten Release-News kennen.",
+      "stats": [
+        "Q1 2027 · Demo-Release",
+        "Q2 2027 · Geplanter Launch",
+        "4 · Geplante PC-Plattformen",
+        "Einzelspieler · Spielmodus"
+      ],
+      "primaryCta": "Einsteiger-Guide",
+      "secondaryCta": "Brushland auf Steam",
+      "tertiaryCta": "Offiziellen Trailer ansehen",
+      "videoLabel": "Offizieller Brushland-Trailer"
+    },
+    "updates": {
+      "title": "Neueste Updates",
+      "browse": "Alle Guides ansehen",
+      "viewAll": "Alle anzeigen"
+    },
+    "start": {
+      "eyebrow": "Hier starten",
+      "title": "Deine Brushland-Reise",
+      "cards": [
+        {
+          "number": "1",
+          "title": "Einsteiger-Guide",
+          "description": "Bemale deine erste Landschaft, platziere ein Haus und folge dem Einstiegskreis von karger Fläche bis zur wachsenden Siedlung."
+        },
+        {
+          "number": "2",
+          "title": "Königreichsaufbau",
+          "description": "Gestalte Straßen, Felder und Wohnbereiche, damit Hütten zu Kirchen, Windmühlen und größeren Wahrzeichen heranwachsen."
+        },
+        {
+          "number": "3",
+          "title": "Geländemalerei",
+          "description": "Kombiniere Gras, Fels, Flüsse und Wasserfälle, um vor dem Bauen gut lesbare Viertel und natürliche Grenzen zu schaffen."
+        },
+        {
+          "number": "4",
+          "title": "Bewohnerwachstum",
+          "description": "Setze einen Steg ins offene Meer, begrüße neue Bewohner und erfülle ihre Wünsche, damit dein Königreich weiterwächst."
+        }
+      ]
+    },
+    "popular": {
+      "eyebrow": "Beliebte Seiten",
+      "title": "Gerade angesagt",
+      "quickLinks": [
+        "Einsteiger-Guide",
+        "Geländemalerei",
+        "Königreichsaufbau",
+        "Release & Systemanforderungen"
+      ],
+      "cards": [
+        {
+          "badge": "Einsteiger",
+          "title": "Einsteiger-Guide",
+          "description": "Bemale deine erste Landschaft, forme eine Siedlung und lerne den kompletten Einstiegskreis kennen.",
+          "href": "/guide/brushland-beginner-guide"
+        },
+        {
+          "badge": "Beliebt",
+          "title": "Königreichsaufbau",
+          "description": "Verbinde Straßen, Felder und Wohnhäuser, damit Hütten zu Kirchen und Burgen werden.",
+          "href": "/guide/brushland-kingdom-building"
+        },
+        {
+          "badge": "Beliebt",
+          "title": "Geländemalerei",
+          "description": "Nutze Gras, Wasser, Berge und Straßen, um gut lesbare Viertel zu gestalten.",
+          "href": "/guide/brushland-gameplay-guide"
+        },
+        {
+          "badge": "Beliebt",
+          "title": "Bewohner-Guide",
+          "description": "Verfolge Ankünfte, Tagesabläufe und Wünsche, während deine Siedlung wächst.",
+          "href": "/mechanics/brushland-settlement-management"
+        },
+        {
+          "badge": "Neu",
+          "title": "Kreatives Bauen",
+          "description": "Plane ein Märchenkönigreich mit geländeorientierter Komposition und durchdachten Abständen.",
+          "href": "/features/brushland-creative-building"
+        },
+        {
+          "badge": "Beliebt",
+          "title": "Release-Termin",
+          "description": "Verfolge die Demo in Q1 2027 und den geplanten Launch in Q2 2027 von Brushland.",
+          "href": "/release/brushland-release-date"
+        },
+        {
+          "badge": "Beliebt",
+          "title": "PC-Anforderungen",
+          "description": "Prüfe die Mindestanforderungen für Windows, macOS, Linux und Steam Deck.",
+          "href": "/platforms/brushland-system-requirements"
+        },
+        {
+          "badge": "Neu",
+          "title": "Steam-Funktionen",
+          "description": "Entdecke Workshop, Cloud, Erfolge und den enthaltenen Level-Editor.",
+          "href": "/release/brushland-steam"
+        },
+        {
+          "badge": "Neu",
+          "title": "Level-Editor",
+          "description": "Erstelle eigene Landschaften und Szenarien und teile sie mit der Community.",
+          "href": "/features/brushland-creative-building"
+        }
+      ]
+    },
+    "aboutGame": {
+      "title": "Was ist Brushland?",
+      "paragraphs": [
+        "Brushland ist ein gemütlicher Sandbox-Königreichsaufbau von Transhuman Design. Statt Fertiggebäude aus einem Menü zu setzen, bemalst du das Gelände Kachel für Kachel: Hebe Berge an, grabe Flüsse, lege Straßen und beobachte, wie Häuser, Höfe und Burgen aus der Landschaft entstehen.",
+        "Das Spiel basiert auf einem entspannten Einzelspieler-Kreislauf ohne Zeitlimit und ohne Niederlage. Bewohner kommen per Boot an, ziehen in die entstehenden Gebäude und wünschen sich Brücken, Arbeit oder schönere Aussichten. Fertige Königreiche lassen sich mit 42 Farbvarianten neu einfärben oder als kurzer Textcode teilen; der enthaltene Level-Editor und der Steam Workshop öffnen die Tür zu Karten aus der Community."
+      ],
+      "stats": [
+        {
+          "label": "Entwickler",
+          "value": "Transhuman Design"
+        },
+        {
+          "label": "Spielart",
+          "value": "Gemütliches Sandbox-Spiel"
+        },
+        {
+          "label": "Plattform",
+          "value": "PC über Steam"
+        },
+        {
+          "label": "Demo",
+          "value": "Q1 2027"
+        },
+        {
+          "label": "Launch",
+          "value": "Q2 2027"
+        },
+        {
+          "label": "Spielmodus",
+          "value": "Einzelspieler"
+        },
+        {
+          "label": "Farbvarianten",
+          "value": "42"
+        },
+        {
+          "label": "Level-Editor",
+          "value": "Enthalten"
+        }
+      ],
+      "cta": "Alle Guides entdecken"
+    },
+    "explore": {
+      "title": "Brushland Wiki entdecken",
+      "description": "Begleite Brushland vom ersten Pinselstrich bis zum blühenden Königreich – mit Guides zu Gelände, Gebäuden, Bewohnern, Farbpaletten, Teilen, Level-Editor und PC-Anforderungen.",
+      "modules": [
+        {
+          "order": 1,
+          "name": "Brushland-Einsteiger-Guide",
+          "description": "Lerne den Einstiegskreis: Male eine Landschaft, forme eine Siedlung, lade Bewohner ein und lass dein erstes Königreich wachsen.",
+          "href": "/guide/brushland-beginner-guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Male zuerst eine breite Grasfläche und ergänze dann Fels- und Bergformen, die die künftige Siedlung einrahmen."
+            },
+            {
+              "label": "2",
+              "detail": "Grage Flüsse und Wasserfälle vor den Straßen, damit das Wasser dem von dir bemalten Höhenverlauf folgen kann."
+            },
+            {
+              "label": "3",
+              "detail": "Reserviere eine große ebene Fläche für den Dorfkern und verbinde sie mit einer einfachen Hauptstraße."
+            },
+            {
+              "label": "4",
+              "detail": "Setze einen Steg ins offene Meer, um die erste Ladung Bewohner einzuladen."
+            },
+            {
+              "label": "5",
+              "detail": "Beobachte, wo Häuser entstehen, und erfülle Wünsche nach Brücken, Arbeit und schön gelegenen Wohnhäusern."
+            },
+            {
+              "label": "6",
+              "detail": "Verfeinere die Ränder und erweitere die Karte in kleinen Schritten, statt alles auf einmal neu zu bemalen."
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Brushland-Bauanleitung",
+          "description": "Erschaffe Dörfer, verbinde Gebäude mit Straßen, umgib Häuser mit Feldern und entwickle Siedlungen zu größeren Königreichen.",
+          "href": "/mechanics/brushland-building-mechanics",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Straßen",
+              "detail": "Straßen verbinden Türen und ordnen die Wege durch eine Siedlung."
+            },
+            {
+              "label": "Felder",
+              "detail": "Felder rund um ein Haus können eine Windmühle mit drehenden Flügeln entstehen lassen."
+            },
+            {
+              "label": "Wohnhäuser",
+              "detail": "Gruppiere Häuser mit genügend Abstand, damit Hütten zu größeren Gebäuden heranwachsen können."
+            },
+            {
+              "label": "Kirchen",
+              "detail": "Ein vollständig von Straßen umschlossenes Haus kann zu einer Kirche mit Glockenturm und Spitze werden."
+            },
+            {
+              "label": "Burgen",
+              "detail": "Anhaltendes Wachstum kann eine Burg mit runden, spitz zulaufenden Türmen entstehen lassen."
+            },
+            {
+              "label": "Stege",
+              "detail": "Ein Steg am offenen Meer bringt Boote, neue Bewohner und frische Wünsche."
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Brushland-Geländeguide",
+          "description": "Nutze das Gelände als Grundlage jedes Viertels – von breiten Grasflächen und Flüssen bis zu Bergrahmen und abschließenden Straßen.",
+          "href": "/guide/brushland-gameplay-guide",
+          "displayType": "tier-grid",
+          "highlights": [
+            {
+              "label": "S",
+              "detail": "Grasland ist die Hauptfläche, auf der Häuser entstehen; male es zuerst und halte es offen."
+            },
+            {
+              "label": "A",
+              "detail": "Wasser trennt Viertel und schafft Treffpunkte; Wasserfälle markieren Höhenunterschiede."
+            },
+            {
+              "label": "B",
+              "detail": "Fels- und Bergränder rahmen das Königreich ein und geben der Silhouette Tiefe."
+            },
+            {
+              "label": "C",
+              "detail": "Straßen vollenden den Entwurf, indem sie Türen, Viertel und künftige Erweiterungen verbinden."
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Brushland-Bewohner-Guide",
+          "description": "Begleite Bewohner von der Ankunft bis in den Alltag und nutze ihre Wünsche, um die nächste Wachstumsphase deiner Siedlung zu steuern.",
+          "href": "/mechanics/brushland-settlement-management",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Ankunft",
+              "detail": "Bewohner verlassen die Boote an Stegen und gehen über Straßen zu ihren neuen Häusern."
+            },
+            {
+              "label": "Wohnhäuser",
+              "detail": "Die Bewohner ziehen in Gebäude ein, die aus dem bemalten Gelände entstehen."
+            },
+            {
+              "label": "Alltag",
+              "detail": "Bewohner angeln, arbeiten und gehen ihrem Alltag nach, wodurch das Königreich lebendig wirkt."
+            },
+            {
+              "label": "Wünsche",
+              "detail": "Die Bewohner wünschen sich Brücken, Arbeitsplätze und schönere Aussichten; erfülle diese Wünsche, damit das Wachstum weitergeht."
+            },
+            {
+              "label": "Wachstum",
+              "detail": "Neue Boote und breitere Straßen zeigen, dass die Siedlung mehr Menschen anzieht."
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Brushland-Farbpaletten",
+          "description": "Nutze die 42 angekündigten Farbvarianten, um ein fertiges Königreich neu zu gestalten und seine Stimmung zu verändern, ohne das Layout anzupassen.",
+          "href": "/mechanics/brushland-building-mechanics",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "42 Varianten",
+              "detail": "Wähle aus 42 Farbvarianten, um ein fertiges Königreich neu einzufärben."
+            },
+            {
+              "label": "Neu einfärben",
+              "detail": "Wende eine Palette nach Abschluss des Layouts an, um das Aussehen schnell aufzufrischen."
+            },
+            {
+              "label": "Stimmung",
+              "detail": "Die Wahl der Palette verändert die Atmosphäre derselben Landschaft."
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Brushland-Königreich teilen",
+          "description": "Teile ein fertiges Königreich als kurzen Textcode und entdecke Workshop- und Editor-Optionen, um Bauwerke weiterzugeben.",
+          "href": "/release/brushland-steam",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Vervollständige die Landschaft und wähle eine der 42 Farbvarianten."
+            },
+            {
+              "label": "2",
+              "detail": "Verwandle das fertige Königreich in einen kurzen Textcode."
+            },
+            {
+              "label": "3",
+              "detail": "Schicke den Code wie einen Brief an eine Person – ganz ohne Dateiübertragung."
+            },
+            {
+              "label": "4",
+              "detail": "Nutze den Steam Workshop oder den Level-Editor, um eigene Karten und Szenarien zu teilen."
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Brushland-Level-Editor",
+          "description": "Nutze den integrierten Level-Editor und den Steam Workshop, um neue Umgebungen zu erstellen, anzupassen und zu teilen.",
+          "href": "/features/brushland-creative-building",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Editor",
+              "detail": "Erstelle mit dem enthaltenen Level-Editor eigene Startlandschaften und Szenarien."
+            },
+            {
+              "label": "Workshop",
+              "detail": "Veröffentliche Karten im Steam Workshop und stöbere in der Community-Auswahl."
+            },
+            {
+              "label": "Cloud",
+              "detail": "Steam Cloud hält Königreiche auf verschiedenen Rechnern verfügbar."
+            },
+            {
+              "label": "Karten",
+              "detail": "Von Spielern erstellte Karten verwenden dieselben Kachelregeln wie der Haupt-Sandbox."
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Brushland-Release und Systemanforderungen",
+          "description": "Prüfe den geplanten Release-Zeitplan, die unterstützten PC-Plattformen und die Mindestanforderungen von Brushland.",
+          "href": "/platforms/brushland-system-requirements",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "Windows",
+              "detail": "Windows 10 oder 11 · Intel Core i3-8100 oder AMD Ryzen 3 3200G · 4 GB RAM · DirectX-11-GPU · 1 GB Speicher"
+            },
+            {
+              "label": "macOS",
+              "detail": "macOS 12 Monterey oder neuer · Intel Core i3 Quad-Core mit 3,6 GHz oder Apple M1 · 4 GB RAM · Metal-GPU · 1 GB Speicher"
+            },
+            {
+              "label": "Linux",
+              "detail": "Ubuntu 22.04 oder 24.04 64-Bit · Intel Core i3-8100 oder AMD Ryzen 3 3200G · 4 GB RAM · Vulkan-GPU · 1 GB Speicher"
+            },
+            {
+              "label": "Steam Deck",
+              "detail": "Steam Deck zählt zu den geplanten Launch-Plattformen von Brushland."
+            },
+            {
+              "label": "Q2 2027",
+              "detail": "Die vollständige Veröffentlichung ist für Q2 2027 nach der Demo in Q1 2027 geplant."
+            }
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "Brushland-FAQ",
+      "description": "Kurze Antworten zu Geländemalerei, Königreichswachstum, Release-Plänen und Teilen-Funktionen in Brushland.",
+      "items": [
+        {
+          "question": "Was ist Brushland?",
+          "answer": "Brushland ist ein gemütlicher Sandbox-Königreichsaufbau von Transhuman Design. Du bemalst das Gelände Kachel für Kachel und siehst dann zu, wie Häuser, Höfe und Burgen aus der Landschaft wachsen."
+        },
+        {
+          "question": "Wie funktioniert das Bauen in Brushland?",
+          "answer": "Gebäude werden nicht aus einem Menü platziert. In Brushland reagieren bemalte Kacheln auf ihre Nachbarn: Straßen können ein Haus in eine Kirche verwandeln, Felder eine Windmühle entstehen lassen und anhaltendes Wachstum eine Burg errichten."
+        },
+        {
+          "question": "Kann man in Brushland scheitern?",
+          "answer": "Nein. Brushland hat kein Zeitlimit und keinen Niederlage-Zustand. Du kannst experimentieren, Gelände neu bemalen und dein Königreich in deinem Tempo wachsen lassen."
+        },
+        {
+          "question": "Wann erscheint Brushland?",
+          "answer": "Brushland soll in Q2 2027 erscheinen, nach einer für Q1 2027 geplanten Demo. Als Launch-Plattformen sind Windows, macOS, Linux und Steam Deck angegeben."
+        },
+        {
+          "question": "Wie teilt man ein Königreich in Brushland?",
+          "answer": "Ein fertiges Brushland-Königreich lässt sich in einen kurzen Textcode verwandeln und an Freunde senden. Brushland unterstützt außerdem 42 Farbvarianten, den Steam Workshop und einen enthaltenen Level-Editor."
+        },
+        {
+          "question": "Ist Brushland ein Einzelspielerspiel?",
+          "answer": "Ja. Brushland ist als Einzelspieler-Erfahrung konzipiert, fertige Königreiche können jedoch mit Freunden geteilt werden."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Bereit, dein Brushland-Königreich zu bauen?",
+      "description": "Entdecke Geländemalerei, Dorfwachstum, Einsteigertipps und Release-Details, setze Brushland auf Steam auf die Wunschliste und tritt der offiziellen Community bei.",
+      "primary": "Brushland auf Steam spielen",
+      "secondary": "Offiziellem Discord beitreten"
+    }
+  },
+  "guide": {
+    "overviewTitle": "Brushland-Guides",
+    "overviewDescription": "Praxisnahe Brushland-Guides zu Geländemalerei, Bauen, Fortschritt und deinem ersten Königreich."
+  },
+  "mechanics": {
+    "overviewTitle": "Brushland-Mechaniken",
+    "overviewDescription": "Wie Geländemalerei, Siedlungswachstum, Ressourcen und Königreichsverwaltung in Brushland zusammenspielen."
+  },
+  "tutorial": {
+    "overviewTitle": "Brushland-Tutorials",
+    "overviewDescription": "Schritt-für-Schritt-Tutorials zum Bauen, Erweitern und Durchspielen deines ersten Königreichs in Brushland."
+  },
+  "features": {
+    "overviewTitle": "Brushland-Features",
+    "overviewDescription": "Entdecke Brushlands kreatives Bauen, Sandbox-Design, entspanntes Spielen und Funktionen für den Königreichsaufbau."
+  },
+  "release": {
+    "overviewTitle": "Brushland-Release-News",
+    "overviewDescription": "Verfolge Brushland-Trailer, Steam-Updates, Release-Zeitplan und bestätigte Launch-Details."
+  },
+  "community": {
+    "overviewTitle": "Brushland-Community",
+    "overviewDescription": "Finde Brushland-Community-Treffpunkte, Discord- und Reddit-Diskussionen sowie Spielerressourcen."
+  },
+  "platforms": {
+    "overviewTitle": "Brushland-Plattformen",
+    "overviewDescription": "Brushland-Details zu PC und Steam, unterstützte Systeme und Mindestanforderungen."
+  },
+  "shared": {
+    "wikiNavigation": "Wiki-Navigation",
+    "startHere": "Hier starten",
+    "startHereDescription": "Neu bei Brushland? Lerne Geländemalerei, Siedlungswachstum und die ersten Schritte zu deinem Königreich.",
+    "browseGuides": "Alle Guides ansehen",
+    "updated": "Aktualisiert",
+    "playOnRoblox": "Auf Roblox spielen",
+    "inThisSection": "In diesem Abschnitt",
+    "tableOfContents": "Inhaltsverzeichnis",
+    "nextSteps": "Nächste Schritte",
+    "needHelp": "Brauchst du Hilfe?",
+    "relatedReading": "Ähnliche Artikel",
+    "relatedGuides": "Ähnliche Guides",
+    "readMore": "Weiterlesen",
+    "officialMedia": "Offizielle Medien",
+    "home": "Startseite",
+    "noGuidesAvailable": "Noch keine Guides verfügbar. Schau bald wieder vorbei!"
+  },
+  "footer": {
+    "aboutTitle": "Brushland Wiki",
+    "about": "Brushland Wiki ist ein unabhängiger, von Fans erstellter Guide-Hub zu Geländemalerei, Königreichsaufbau, Bewohnern, Plattformen und Release-Details – für neue und erfahrene Spieler.",
+    "quickLinks": "Schnellzugriff",
+    "guides": "Guides",
+    "legal": "Rechtliches",
+    "copyright": "2026 Brushland Wiki. Nicht mit Transhuman Design verbunden.",
+    "description": "Gemütlicher Sandbox-Königreichsaufbau für PC über Steam. Bemal das Gelände und sieh deinem Königreich beim Wachsen zu.",
+    "playGame": "Brushland auf Steam spielen",
+    "officialDiscord": "Offizieller Brushland-Discord",
+    "officialYoutube": "Transhuman Design auf YouTube",
+    "vvBuilder": "Steam-Community-Hub",
+    "beginnerGuide": "Einsteiger-Guide",
+    "mechanicsGuides": "Mechanik-Guides",
+    "featuresGuides": "Feature-Guides",
+    "platformsGuides": "Plattform-Guides",
+    "privacyPolicy": "Datenschutzerklärung",
+    "termsOfService": "Nutzungsbedingungen"
+  }
+}
