@@ -25,11 +25,13 @@ export const siteConfig: SiteConfig = {
   tagline: "Guides, Gameplay & Release News",
   description: "Explore Brushland, a cozy sandbox kingdom-building game. Discover terrain painting, kingdom building, villagers, release news and guides.",
   url: process.env.NEXT_PUBLIC_SITE_URL || "https://brushland.top",
-  supportEmail: `support@${new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://brushland.top").hostname.replace(/^www\./, "")}`,
+  supportEmail: "support@brushland.top",
   gameUrl: "https://store.steampowered.com/app/5163450/Brushland/",
   heroVideoId: "Qbi4fKsKdSg", // Brushland official announcement trailer
   social: {
+    discord: "https://discord.gg/kRkC82p8Nc",
     youtube: "https://www.youtube.com/@TranshumanDesign",
+    twitter: "https://x.com/THDtweet",
   },
   locales: ["en", "es", "pt", "de", "fr"],
   defaultLocale: "en",
