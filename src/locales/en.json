@@ -43,22 +43,22 @@
         {
           "number": "1",
           "title": "Beginner Guide",
-          "description": "Master the Spirit World from day one with our comprehensive beginner guide covering controls, combat, and early progression."
+          "description": "Paint your first landscape, place a home, and follow the opening loop from bare terrain to a growing settlement."
         },
         {
           "number": "2",
-          "title": "Fastest Leveling",
-          "description": "Dominate early game and max your progression with the most efficient leveling routes and strategies."
+          "title": "Kingdom Building",
+          "description": "Shape roads, fields, and housing clusters so cottages can evolve into churches, windmills, and larger landmarks."
         },
         {
           "number": "3",
-          "title": "Best Farming Spots",
-          "description": "Maximize your Soul Essence and EXP gains with optimal farming locations for every stage."
+          "title": "Terrain Painting",
+          "description": "Layer grass, rock, rivers, and waterfalls to create readable districts and natural borders before building."
         },
         {
           "number": "4",
-          "title": "How to Extract",
-          "description": "Learn the best methods and locations for extracting resources in Brushland."
+          "title": "Villager Growth",
+          "description": "Place a dock on open sea, welcome new residents, and answer their requests to keep the kingdom expanding."
         }
       ]
     },
@@ -66,73 +66,73 @@
       "eyebrow": "Popular Pages",
       "title": "Trending Now",
       "quickLinks": [
-        "Hollow Progression",
-        "Fastest Leveling",
-        "Spirit Charms",
-        "All Boss Guides"
+        "Beginner Guide",
+        "Terrain Painting",
+        "Kingdom Building",
+        "Release & Specs"
       ],
       "cards": [
         {
           "badge": "Beginner",
           "title": "Beginner Guide",
-          "description": "Everything you need from your first login to mastering the basics of combat and progression.",
-          "href": "/beginner-guide"
-        },
-        {
-          "badge": "Updated",
-          "title": "Active Codes",
-          "description": "All working codes with rewards redeem before they expire.",
-          "href": "/codes"
-        },
-        {
-          "badge": "Updated",
-          "title": "Equipment Database",
-          "description": "94 items across 5 slots complete gear database with stats, rarity, and sources.",
-          "href": "/equipment"
+          "description": "Paint your first landscape, shape a settlement, and learn the full opening loop.",
+          "href": "/guide/brushland-beginner-guide"
         },
         {
           "badge": "Popular",
-          "title": "Which Race Should You Pick?",
-          "description": "Shinigami, Quincy, or Hollow compare all three and find your perfect playstyle.",
-          "href": "/races/best-race"
-        },
-        {
-          "badge": "New",
-          "title": "Enemies & Monsters",
-          "description": "23 enemy types across 5 regions drops, locations, and farming tips.",
-          "href": "/enemies"
+          "title": "Kingdom Building",
+          "description": "Connect roads, fields, and housing so cottages evolve into churches and castles.",
+          "href": "/guide/brushland-kingdom-building"
         },
         {
           "badge": "Popular",
-          "title": "Boss Locations & Drops",
-          "description": "Every boss location, drop table, and respawn timer in one reference.",
-          "href": "/boss-locations-drops-respawn-times"
+          "title": "Terrain Painting",
+          "description": "Use grass, water, mountains, and roads to build readable districts.",
+          "href": "/guide/brushland-gameplay-guide"
         },
         {
           "badge": "Popular",
-          "title": "Best Builds",
-          "description": "Optimal stat allocation, skill tree picks, and Charm combos for every playstyle.",
-          "href": "/builds/best-builds"
+          "title": "Villager Guide",
+          "description": "Follow arrivals, daily routines, and requests as your settlement grows.",
+          "href": "/mechanics/brushland-settlement-management"
         },
         {
           "badge": "New",
-          "title": "Shikai Tier List",
-          "description": "All 6 Shinigami Shikai types ranked by PvP and PvE performance.",
-          "href": "/tier-list/shikai"
+          "title": "Creative Building",
+          "description": "Plan a fairytale kingdom with terrain-first composition and thoughtful spacing.",
+          "href": "/features/brushland-creative-building"
+        },
+        {
+          "badge": "Popular",
+          "title": "Release Date",
+          "description": "Track the Q1 2027 demo and Q2 2027 launch plan for Brushland.",
+          "href": "/release/brushland-release-date"
+        },
+        {
+          "badge": "Popular",
+          "title": "PC Requirements",
+          "description": "Check minimum specs for Windows, macOS, Linux, and Steam Deck.",
+          "href": "/platforms/brushland-system-requirements"
         },
         {
           "badge": "New",
-          "title": "World Events Guide",
-          "description": "Supply Caches, Raids, and endgame world events with rare rewards.",
-          "href": "/world-events"
+          "title": "Steam Features",
+          "description": "Review Workshop, Cloud, achievements, and the included level editor.",
+          "href": "/release/brushland-steam"
+        },
+        {
+          "badge": "New",
+          "title": "Level Editor",
+          "description": "Create custom landscapes and scenarios, then share them with the community.",
+          "href": "/features/brushland-creative-building"
         }
       ]
     },
     "aboutGame": {
       "title": "What is Brushland?",
       "paragraphs": [
-        "Brushland is a stylized fighting RPG on Roblox inspired by the Bleach anime universe. Choose from three playable races Shinigami, Quincy, or Hollow each with unique progression systems, unlockable abilities, and evolution paths. Master over 130 skills as you fight your way to the level 100 cap.",
-        "Whether you're unlocking your first Shikai, evolving from a base Hollow into an Arrancar, or grinding Quincy Lieutenant missions, our wiki covers every system with detailed guides, data tables, and step-by-step walkthroughs."
+        "Brushland is a cozy sandbox kingdom-builder from Transhuman Design. Instead of placing prefabs from a menu, you paint terrain tile by tile: raise mountains, carve rivers, and lay roads, then watch homes, farms, and castles emerge from the landscape.",
+        "The game is built around a relaxed single-player loop with no clock and no failure state. Villagers arrive by boat, settle into the buildings that form, and ask for bridges, work, or better views. Finished kingdoms can be recolored with 42 color looks or shared as short text codes, while the included level editor and Steam Workshop support open the door to community-made maps."
       ],
       "stats": [
         {
@@ -140,191 +140,289 @@
           "value": "Transhuman Design"
         },
         {
-          "label": "Platform",
-          "value": "Roblox"
-        },
-        {
           "label": "Genre",
-          "value": "Fighting RPG"
+          "value": "Cozy Sandbox"
         },
         {
-          "label": "Visits",
-          "value": "12.6M+"
+          "label": "Platform",
+          "value": "PC via Steam"
         },
         {
-          "label": "Favorites",
-          "value": "243K+"
+          "label": "Demo",
+          "value": "Q1 2027"
         },
         {
-          "label": "Total Skills",
-          "value": "130+"
+          "label": "Launch",
+          "value": "Q2 2027"
         },
         {
-          "label": "Level Cap",
-          "value": "100"
+          "label": "Game Mode",
+          "value": "Single-Player"
+        },
+        {
+          "label": "Color Looks",
+          "value": "42"
+        },
+        {
+          "label": "Level Editor",
+          "value": "Included"
         }
       ],
       "cta": "Explore All Guides"
     },
     "explore": {
       "title": "Explore Brushland Wiki",
-      "description": "Master your seafood restaurant on Roblox with essential progression guides, active codes, complete fish & recipe catalogs, and optimal upgrade strategies.",
+      "description": "Follow Brushland from the first brushstroke to a thriving kingdom with guides for terrain, buildings, villagers, palettes, sharing, the level editor, and PC requirements.",
       "modules": [
         {
           "order": 1,
-          "name": "Brushland Working Codes",
-          "description": "Redeem the latest working codes to claim free coins, gems, exclusive cosmetics, and boost items before they expire.",
-          "href": "/codes/brushland-codes",
-          "displayType": "code-box",
+          "name": "Brushland Beginner Guide",
+          "description": "Learn the opening loop: paint a landscape, shape a settlement, invite villagers, and grow the first kingdom.",
+          "href": "/guide/brushland-beginner-guide",
+          "displayType": "step-by-step",
           "highlights": [
             {
-              "label": "Code",
-              "detail": "FULLRELEASE — Free Cash & Rewards"
+              "label": "1",
+              "detail": "Paint broad grassland first, then add rock and mountain shapes to frame the future settlement."
             },
             {
-              "label": "Code",
-              "detail": "75KLIKES — Exclusive Ability Reroll"
+              "label": "2",
+              "detail": "Carve rivers and waterfalls before roads so water can follow the elevation you painted."
             },
             {
-              "label": "Tip",
-              "detail": "Codes are case-sensitive; enter them in the Settings menu"
+              "label": "3",
+              "detail": "Reserve a large flat area for the village core and connect it with a simple road spine."
+            },
+            {
+              "label": "4",
+              "detail": "Add a dock on open sea to invite the first boatload of villagers."
+            },
+            {
+              "label": "5",
+              "detail": "Watch where homes form, then answer requests for bridges, work, and scenic housing."
+            },
+            {
+              "label": "6",
+              "detail": "Refine edges and expand in small passes instead of repainting the whole map at once."
             }
           ]
         },
         {
           "order": 2,
-          "name": "Beginner Guide: How to Start & Serve Customers",
-          "description": "Step-by-step beginner guide covering customer ordering, food prep, station management, and cashier checkout mechanics.",
-          "href": "/guide/brushland-beginner-guide",
-          "displayType": "feature-cards",
+          "name": "Brushland Building Guide",
+          "description": "Create villages, connect buildings with roads, surround homes with fields, and develop settlements into larger kingdoms.",
+          "href": "/mechanics/brushland-building-mechanics",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Step 1",
-              "detail": "Take customer order at the stall front"
+              "label": "Roads",
+              "detail": "Roads connect doors and organize movement through a settlement."
             },
             {
-              "label": "Step 2",
-              "detail": "Cook seafood on the grill or boil station"
+              "label": "Fields",
+              "detail": "Fields around a home can trigger a windmill with turning sails."
             },
             {
-              "label": "Step 3",
-              "detail": "Serve warm food promptly for maximum customer tips"
+              "label": "Housing",
+              "detail": "Cluster homes with breathing room so cottages can grow into larger buildings."
+            },
+            {
+              "label": "Churches",
+              "detail": "A house ringed entirely by road can become a church with a belfry and spire."
+            },
+            {
+              "label": "Castles",
+              "detail": "Sustained growth can raise a castle with round, pointed towers."
+            },
+            {
+              "label": "Docks",
+              "detail": "A dock on open sea brings boats, new villagers, and fresh requests."
             }
           ]
         },
         {
           "order": 3,
-          "name": "Seafood & Fish Tier List",
-          "description": "Complete breakdown of all catchable fish and seafood ranked by market value, customer demand, and profit margins.",
-          "href": "/seafood/brushland-tier-list",
+          "name": "Brushland Terrain Guide",
+          "description": "Use terrain as the foundation of every district, from broad grassland and rivers to mountain framing and finishing roads.",
+          "href": "/guide/brushland-gameplay-guide",
           "displayType": "tier-grid",
           "highlights": [
             {
-              "label": "S Tier",
-              "detail": "King Crab · Lobster Boil — Highest profit per customer"
+              "label": "S",
+              "detail": "Grassland is the main canvas where homes form; paint it first and keep it open."
             },
             {
-              "label": "A Tier",
-              "detail": "Salmon · Jumbo Shrimp · Tuna Steak — Reliable fast earners"
+              "label": "A",
+              "detail": "Water divides districts and creates gathering points; waterfalls mark elevation changes."
             },
             {
-              "label": "B Tier",
-              "detail": "Clams · Oysters · Squid — Great mid-game margin"
+              "label": "B",
+              "detail": "Rock and mountain edges frame the kingdom and give the skyline depth."
             },
             {
-              "label": "C Tier",
-              "detail": "Common Sardines · Small Crab — Starter seafood"
+              "label": "C",
+              "detail": "Roads finish the layout by linking doors, districts, and future upgrades."
             }
           ]
         },
         {
           "order": 4,
-          "name": "Best Upgrades Progression",
-          "description": "Optimal order to spend your cash: expand kitchen stations, hire waitstaff, speed up grills, and upgrade seating.",
-          "href": "/upgrades/brushland-best-upgrades",
-          "displayType": "feature-cards",
+          "name": "Brushland Villager Guide",
+          "description": "Follow villagers from arrival to daily life, and use their requests to guide the next stage of settlement growth.",
+          "href": "/mechanics/brushland-settlement-management",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Priority 1",
-              "detail": "Cooking Speed & Extra Burners — Clears customer backlog"
+              "label": "Arrival",
+              "detail": "Villagers step off boats at docks and walk roads to their new homes."
             },
             {
-              "label": "Priority 2",
-              "detail": "Customer Seating Capacity — Increases simultaneous diners"
+              "label": "Homes",
+              "detail": "Residents move into buildings that form from the painted terrain."
             },
             {
-              "label": "Priority 3",
-              "detail": "Auto-Chef / Waiter Staff — Passive hands-free revenue"
+              "label": "Routine",
+              "detail": "Villagers fish, work, and go about daily life, making the kingdom feel lived in."
+            },
+            {
+              "label": "Requests",
+              "detail": "Residents ask for bridges, jobs, and better views; answer them to keep growth moving."
+            },
+            {
+              "label": "Growth",
+              "detail": "New boats and wider roads show that the settlement is attracting more people."
             }
           ]
         },
         {
           "order": 5,
-          "name": "How to Get Cash Fast",
-          "description": "Top money-making strategies, VIP evaluation, tip maximization, and high-efficiency serving tips.",
-          "href": "/guide/brushland-how-to-get-cash-fast",
-          "displayType": "feature-cards",
+          "name": "Brushland Color Palettes",
+          "description": "Use the 42 advertised color looks to reskin a completed kingdom and change its mood without changing its layout.",
+          "href": "/mechanics/brushland-building-mechanics",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Combo",
-              "detail": "Chain orders quickly to build the Customer Happiness multiplier"
+              "label": "42 Looks",
+              "detail": "Choose from 42 color looks to reskin a finished kingdom."
             },
             {
-              "label": "High Margin",
-              "detail": "Focus high-tier seafood boils during peak customer rush hours"
+              "label": "Reskin",
+              "detail": "Apply a palette after the layout is complete for a fast visual refresh."
             },
             {
-              "label": "Reinvest",
-              "detail": "Keep 20% cash reserve for fresh ingredient replenishment"
+              "label": "Mood",
+              "detail": "Palette choices shift the atmosphere of the same landscape."
             }
           ]
         },
         {
           "order": 6,
-          "name": "Plot Expansion & Stand Customization",
-          "description": "Unlock bigger land plots, arrange optimal cooking layouts, and add high-value decorative upgrades.",
-          "href": "/upgrades/brushland-how-to-upgrade-plot",
-          "displayType": "feature-cards",
+          "name": "Brushland Kingdom Sharing",
+          "description": "Share a finished kingdom as a short text code, then explore Workshop and editor options for passing builds along.",
+          "href": "/release/brushland-steam",
+          "displayType": "step-by-step",
           "highlights": [
             {
-              "label": "Plot 1",
-              "detail": "Starter Beach Stand (3 Tables, 1 Grill)"
+              "label": "1",
+              "detail": "Finish the landscape and choose one of the 42 color looks."
             },
             {
-              "label": "Plot 2",
-              "detail": "Boardwalk Restaurant (6 Tables, 2 Grills, Boil Station)"
+              "label": "2",
+              "detail": "Fold the completed kingdom into a short text code."
             },
             {
-              "label": "Plot 3",
-              "detail": "Luxury Pier Seafood Pavilion (Full Automation & VIP Seating)"
+              "label": "3",
+              "detail": "Send the code to a friend like a letter, with no file transfer needed."
+            },
+            {
+              "label": "4",
+              "detail": "Use Steam Workshop or the level editor to share custom maps and scenarios."
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Brushland Level Editor",
+          "description": "Use the built-in level editor and Steam Workshop to create, customize, and share new environments.",
+          "href": "/features/brushland-creative-building",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Editor",
+              "detail": "Build custom starting landscapes and scenarios with the included level editor."
+            },
+            {
+              "label": "Workshop",
+              "detail": "Publish and browse community maps through Steam Workshop."
+            },
+            {
+              "label": "Cloud",
+              "detail": "Steam Cloud keeps kingdoms available between machines."
+            },
+            {
+              "label": "Maps",
+              "detail": "Player-made maps use the same tile rules as the main sandbox."
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Brushland Release and System Requirements",
+          "description": "Check the planned release schedule, supported PC platforms, and minimum hardware requirements for Brushland.",
+          "href": "/platforms/brushland-system-requirements",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "Windows",
+              "detail": "Windows 10 or 11 · Intel Core i3-8100 or AMD Ryzen 3 3200G · 4 GB RAM · DirectX 11 GPU · 1 GB storage"
+            },
+            {
+              "label": "macOS",
+              "detail": "macOS 12 Monterey or newer · Intel Core i3 quad-core 3.6 GHz or Apple M1 · 4 GB RAM · Metal GPU · 1 GB storage"
+            },
+            {
+              "label": "Linux",
+              "detail": "Ubuntu 22.04 or 24.04 64-bit · Intel Core i3-8100 or AMD Ryzen 3 3200G · 4 GB RAM · Vulkan GPU · 1 GB storage"
+            },
+            {
+              "label": "Steam Deck",
+              "detail": "Steam Deck is listed among the planned launch platforms for Brushland."
+            },
+            {
+              "label": "Q2 2027",
+              "detail": "Full release is planned for Q2 2027, following the Q1 2027 demo."
             }
           ]
         }
       ]
     },
     "faq": {
-      "title": "Frequently Asked Questions",
-      "description": "Quick answers to the most common questions about Brushland.",
+      "title": "Brushland FAQ",
+      "description": "Quick answers about Brushland's terrain painting, kingdom growth, release plans, and sharing tools.",
       "items": [
         {
           "question": "What is Brushland?",
-          "answer": "Brushland is a free-to-play fighting RPG on Roblox based on the Bleach anime. You choose one of game mechanics Shinigami (Soul Reaper), Quincy, or Hollow each with unique progression, combat abilities, and evolution systems. The game features 130+ skills, a level 100 cap, boss fights, and deep build customization."
+          "answer": "Brushland is a cozy sandbox kingdom-builder from Transhuman Design. You paint terrain tile by tile, then watch homes, farms, and castles grow from the landscape."
         },
         {
-          "question": "Which race should beginners pick?",
-          "answer": "Shinigami is the most straightforward starter race, while Hollow and Quincy offer more specialized progression routes. Compare their abilities before committing."
+          "question": "How does building work in Brushland?",
+          "answer": "You do not place buildings from a menu. In Brushland, painted tiles react to their neighbors: roads can turn a house into a church, fields can produce a windmill, and sustained growth can raise a castle."
         },
         {
-          "question": "What is the current level cap?",
-          "answer": "The current level cap is 100, with more than 130 skills available across trees and race progression systems."
+          "question": "Can you fail in Brushland?",
+          "answer": "No. Brushland has no clock and no failure state, so you can experiment, repaint terrain, and grow a kingdom at your own pace."
         },
         {
-          "question": "Where do I find active codes?",
-          "answer": "Use the Codes page for working codes, rewards, expiration notes, and redeem instructions."
+          "question": "When does Brushland release?",
+          "answer": "Brushland is planned to launch in Q2 2027, after a demo planned for Q1 2027. The launch platforms listed for Brushland are Windows, macOS, Linux, and Steam Deck."
         },
         {
-          "question": "Are boss guides updated?",
-          "answer": "Boss pages are organized with spawn notes, attack patterns, strategies, drop tables, and related next steps for progression."
+          "question": "How do you share a Brushland kingdom?",
+          "answer": "A finished Brushland kingdom can be folded into a short text code and sent to a friend. Brushland also supports 42 color looks, Steam Workshop, and an included level editor."
+        },
+        {
+          "question": "Is Brushland single-player?",
+          "answer": "Yes. Brushland is designed as a single-player experience, though finished kingdoms can be shared with friends."
         }
       ]
     },
