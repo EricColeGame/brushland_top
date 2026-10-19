@@ -1,0 +1,131 @@
+export const metadata = {
+  title: "Mecánicas de construcción de Brushland explicadas: cómo pintar baldosas construye un reino",
+  description: "Una guía práctica de las mecánicas de construcción de Brushland: cómo pintar baldosas, las reglas de vecindad y las peticiones de los aldeanos convierten un terreno pintado en un reino vivo.",
+  category: "mechanics",
+  date: "2026-10-20",
+}
+
+Brushland es un constructor de reinos de cuento de hadas en el que nunca arrastras un solo edificio a su sitio: pintas el terreno y el mundo decide qué pertenece a cada lugar. Entender las **mecánicas de construcción de Brushland** se reduce en realidad a una regla: cada baldosa observa a sus vecinas y se transforma en consecuencia. Cuando eso encaja, un puñado de cuadrados pintados se convierte en una aldea, luego en un pueblo y después en un reino con torres redondas y sombreros puntiagudos, y todo lo hiciste con un pincel en lugar de un menú.
+
+Por eso importan estas mecánicas. La mayoría de los constructores de ciudades te piden elegir un edificio de una lista. Brushland te pide describir una situación y luego te recompensa con una arquitectura que quizá no habías previsto. Esta guía desglosa el bucle, las reglas de transformación, los sistemas de terreno y las redes de seguridad que hacen que todo se sienta como juego y no como optimización.
+
+## El bucle central de las mecánicas de construcción de Brushland
+
+Cada sesión sigue el mismo ritmo de tres tiempos, y la propia descripción del desarrollador en la [página oficial de Brushland en Steam](https://store.steampowered.com/app/5163450/Brushland/) lo plantea como "dar forma a una tierra, verla llenarse de vida y cuidar de las personas que la llamaban hogar". Las mecánicas de construcción de Brushland se sitúan por completo dentro de ese segundo tiempo: la tierra responde y tú respondes a ella.
+
+| Paso | Qué haces | Qué hace el juego | Por qué importa |
+|---|---|---|---|
+| 1. Dar forma | Pintas roca, agua, campos, caminos | El terreno se eleva, los ríos encuentran su cauce, los acantilados se convierten en cascadas | Establece el escenario físico |
+| 2. Asentar | Colocas un muelle en mar abierto, rodeas una casa con camino | Llegan barcos, los aldeanos caminan con maletas | Inicia el crecimiento de población |
+| 3. Atender | Respondes a peticiones de puentes, minas, cabañas | Aparecen nuevos tipos de edificios, los caminos se ensanchan | Desbloquea el siguiente nivel |
+| 4. Expandir | Sigues pintando alrededor de los grupos existentes | La aldea se convierte en pueblo y luego en castillo | Progresión a largo plazo |
+
+El detalle importante es que nada en esa tabla es un comando de "construir". No hay cola de construcción ni coste de recursos indicado en un panel. El acto de pintar es la entrada y la lógica de las baldosas es la salida. Quienes intentan planificar una distribución perfecta sobre el papel suelen acabar peleándose con el sistema; el mejor enfoque es pintar un poco, observar qué deciden las baldosas y luego pintar más.
+
+### Empieza pequeño y lee el resultado
+
+Una sola casa en un camino hace muy poco. Rodéala de campos y se convierte en un molino cuyas aspas giran de verdad. Rodea una casa solitaria con camino y se convierte en una iglesia con campanario y aguja. Solo esos dos resultados te dicen cuál es la filosofía de diseño: la adyacencia es el verdadero menú de construcción.
+
+## La regla de vecindad: cómo las baldosas deciden en qué convertirse
+
+Si solo vas a aprender una cosa sobre las **mecánicas de construcción de Brushland**, aprende la regla de vecindad. Cada baldosa evalúa qué tiene al lado y elige una forma a partir de ese contexto. Quien pinta no está colocando una iglesia; quien pinta está colocando una casa en una situación que significa "iglesia".
+
+| Patrón pintado | Resultado emergente | Conclusión práctica |
+|---|---|---|
+| Casa aislada | Casa simple | Vale como semilla, no como destino |
+| Casa rodeada de camino | Iglesia con campanario y aguja | Los caminos son estructurales, no solo decorativos |
+| Casa rodeada de campos | Molino con aspas giratorias | La agricultura impulsa los hitos verticales |
+| Crecimiento denso y repetido de aldea | Castillo con torres redondas | La propia escala es un desencadenante de transformación |
+| Lago pintado bajo una multitud | Los aldeanos salen rodando y se alejan nadando | El agua es un límite duro para la población |
+
+Esto es generación procedural al servicio del encanto más que de la aleatoriedad. Los resultados son lo bastante deterministas como para apuntar a ellos una vez que conoces los patrones, pero lo bastante variados como para que el propio desarrollador admita que incluso quien pinta puede sorprenderse.
+
+### Consejos prácticos para explotar la adyacencia
+
+- **Pinta anillos, no puntos.** Una sola baldosa de camino no hace nada; un bucle de camino alrededor de una casa la transforma en iglesia.
+- **Agrupa campos antes de agrupar casas.** Los campos son la forma más barata de convertir una casa simple en un molino, que es un ancla visual potente para un nuevo distrito.
+- **Deja espacio para el castillo.** El castillo aparece a medida que crece la aldea, así que empaquetar demasiado pronto puede dejarte sin sitio.
+- **Trata el agua como un muro.** Todo lo que pintes como lago expulsa a los aldeanos por completo de ese espacio.
+
+## Pintar el terreno: roca, ríos y cascadas
+
+El terreno es la capa de base de las **mecánicas de construcción de Brushland**, y es el lugar más indulgente para experimentar. Donde pones roca, surgen montañas que atrapan la nieve. El agua sigue la gravedad, encuentra su propia ruta cuesta abajo y se despeña por los acantilados en forma de cascadas. No estás esculpiendo una malla: estás describiendo un paisaje y dejando que las baldosas lo resuelvan.
+
+| Tipo de pincel | Comportamiento emergente | Mejor uso |
+|---|---|---|
+| Roca / piedra | Surgen montañas, aparece nieve en altura | Horizonte, fondos dramáticos, fronteras naturales |
+| Agua | Los ríos trazan su propio descenso | Cascadas en bordes de acantilado, corredores escénicos |
+| Campos | Permite transformaciones agrícolas | Molinos, distritos rurales |
+| Camino | Conecta puertas, mejora edificios adyacentes | Conversión en iglesia, caminos más anchos después |
+| Mar abierto + muelle | Llegan barcos con nuevos aldeanos | Desencadenante del crecimiento de población |
+
+Como los ríos eligen su propio camino, el flujo de trabajo inteligente es pintar primero el terreno elevado y después el agua. Si pintas agua antes de que exista la montaña, el río no tiene desde dónde caer de forma dramática. Pinta el acantilado y luego deja que el agua encuentre el desnivel.
+
+### Las cascadas son una señal, no una decoración
+
+Una cascada es lo que el juego te muestra cuando el agua encuentra un desnivel que no puede rodear. Eso la convierte en una herramienta de diagnóstico útil: si esperabas una cascada y obtuviste un lago plano, tu cambio de elevación es demasiado suave. Añade roca y el desnivel vuelve.
+
+## Aldeanos, muelles y peticiones: la capa de crecimiento
+
+La población es donde las **mecánicas de construcción de Brushland** dejan de ser puramente espaciales y empiezan a ser conversacionales. Construye un muelle junto a mar abierto y llegarán los primeros barcos. Los aldeanos desembarcan con maletas, recorren los caminos hasta sus puertas y empieza a salir humo de las chimeneas. Pregúntales qué hacen y obtendrás respuestas como "De pesca", "Moliendo alegremente" o "Holgazaneando en el umbral", y de vez en cuando alguien que lleva una oveja en brazos y no ve necesidad de explicarlo.
+
+Después de eso, los aldeanos empiezan a pedir cosas. Esta es la capa de misiones del juego, y es deliberadamente de baja presión.
+
+| Petición del aldeano | Qué pintas | Resultado |
+|---|---|---|
+| "¡Un puente, por favor!" | Un cruce sobre el agua | Conecta distritos separados |
+| "¡Busco trabajo!" | Una mina o un lugar de trabajo similar | Mantiene a los residentes empleados y contentos |
+| Una cabaña con vistas | Vivienda en terreno escénico | Aumenta el atractivo de la zona |
+| Más llegadas | Muelles adicionales y caminos más anchos | Un nivel de población superior |
+
+Se corre la voz de que el lugar es feliz, llegan más barcos y los caminos se ensanchan visiblemente bajo todas esas pisadas. Merece la pena observar ese ensanchamiento: es la lectura visual más clara de que tus decisiones sobre las **mecánicas de construcción de Brushland** están funcionando. Si los caminos siguen estrechos, tu aldea aún no está prosperando.
+
+### Leer el bucle de retroalimentación
+
+- El tránsito peatonal ensancha un camino = crecimiento confirmado.
+- Humo en las chimeneas = casas ocupadas.
+- Nuevos barcos en el muelle = peticiones satisfechas.
+- Silencio y caminos vacíos = pinta algo que los aldeanos hayan pedido.
+
+## Reglas del modo sandbox, colores y herramientas para compartir
+
+La parte más infravalorada de las **mecánicas de construcción de Brushland** es que no hay reloj ni estado de fracaso. No puedes perder. El peor resultado descrito es pintar un lago bajo una multitud: salen rodando gritando que se caen y luego se alejan nadando para buscar un nuevo hogar, y hasta eso puede deshacerse. Para quienes vienen de constructores con tintes de supervivencia, esto cambia cómo deberías jugar: experimenta con audacia, porque los errores son reversibles.
+
+| Sistema | Cómo funciona | Por qué ayuda |
+|---|---|---|
+| Sin temporizador | Nada avanza a menos que pintes | Juega a tu propio ritmo |
+| Sin fracaso | No existe condición de derrota | Elimina la ansiedad por optimizar |
+| Deshacer | Incluso los aldeanos desplazados pueden recuperarse | Experimentación segura |
+| 42 estilos de color | Aplica una paleta a un reino terminado | Renovación visual instantánea |
+| Compartir por código de texto | Condensa un reino en un código corto | Envía una construcción a un amigo como una carta |
+| Steam Workshop + editor de niveles | Comparte y crea contenido personalizado | Longevidad de la comunidad |
+
+Esa última fila importa para el largo plazo. La ficha de Steam confirma compatibilidad con Steam Workshop, logros de Steam, Steam Cloud y un editor de niveles incluido, así que las reglas de baldosas que aprendes en el sandbox principal son también la materia prima para mapas creados por la comunidad y reinos compartidos.
+
+Como Brushland sigue apareciendo como "próximamente", todavía no hay una base amplia de experiencia práctica de jugadores en la que apoyarse. Las mecánicas descritas aquí provienen de los propios anuncios del desarrollador y de la descripción de la tienda, no de informes de la comunidad, así que toma los patrones de transformación concretos como ejemplos documentados y no como una lista exhaustiva. La regla subyacente —las baldosas reaccionan a sus vecinas— es la parte que se mantendrá a medida que se descubran más patrones.
+
+### Una secuencia de apertura apta para principiantes
+
+1. Pinta un pequeño parche de roca como telón de fondo.
+2. Añade un borde de acantilado y deja que el agua caiga desde él.
+3. Pinta un camino y una casa en ese camino.
+4. Rodea la casa con camino para activar una iglesia.
+5. Pinta campos cerca y haz crecer un molino.
+6. Añade mar abierto y un muelle para empezar las llegadas.
+7. Responde a las primeras peticiones antes de expandirte más.
+
+## Preguntas frecuentes
+
+**¿Coloco edificios directamente en Brushland?**
+No. Las **mecánicas de construcción de Brushland** son de pintar primero: eliges baldosas de terreno e infraestructura, y los edificios emergen de cómo se relacionan esas baldosas entre sí. Tu control viene de la distribución, no de un menú de construcción.
+
+**¿Qué pasa si pinto agua bajo mis aldeanos?**
+Salen rodando, se quejan de que se caen y se alejan nadando para buscar un nuevo hogar. El desarrollador señala que incluso esto puede deshacerse, así que no hay pérdida permanente.
+
+**¿Hay estado de fracaso o límite de tiempo?**
+No hay reloj ni condición de derrota. Nada avanza a menos que sigas pintando, lo que acerca el juego más a un diorama de juguete que a un simulador de gestión.
+
+**¿Puedo compartir el reino que construyo?**
+Sí. Un reino terminado puede condensarse en un código de texto corto y enviarse a un amigo, y también puede cambiar de aspecto con 42 estilos de color diferentes. Steam Workshop y el editor de niveles incluido amplían aún más esa forma de compartir.
+
+Dominar las **mecánicas de construcción de Brushland** tiene menos que ver con memorizar recetas y más con aprender a pensar en términos de adyacencia. Pinta una situación, observa cómo responden las baldosas y deja que el reino te diga en qué quiere convertirse a continuación.

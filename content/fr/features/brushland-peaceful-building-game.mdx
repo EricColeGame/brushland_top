@@ -1,0 +1,116 @@
+export const metadata = {
+  title: "Brushland, jeu de construction paisible : peignez un royaume, regardez-le grandir",
+  description: "Découvrez pourquoi Brushland est le jeu de construction paisible à suivre : peignez des tuiles, érigez des châteaux et faites grandir un royaume sans horloge ni état d'échec.",
+  category: "features",
+  date: "2026-10-20",
+}
+
+## Un royaume de conte de fées bâti sur trois joies simples
+
+La plupart des city builders vous accueillent avec un tableur et une horloge qui tourne. Brushland ne fait ni l'un ni l'autre : il vous tend un pinceau, une étendue de terrain vide et un royaume qui s'assemble tranquillement autour de vos choix. Cette boucle douce est précisément pourquoi ce jeu de construction paisible Brushland est devenu l'un des jeux de simulation indés les plus intéressants à venir.
+
+Ci-dessous, nous détaillons les fonctionnalités qui font de Brushland un jeu de construction paisible plutôt qu'un parcours du combattant de gestion — le système de peinture de tuiles, les demandes des villageois, l'absence totale d'échec et les outils pour partager ce que vous avez créé. Tout ici est tiré de la fiche officielle du jeu sur la boutique et des annonces du développeur lui-même.
+
+Brushland est en développement chez Transhuman Design, le studio dirigé par Michał Marcinkowski, créateur de Soldat et King Arthur's Gold. Ce pedigree compte. Il ne s'agit pas d'une première expérience avec la génération procédurale ; c'est un virage délibéré vers quelque chose de doux, de lent et de décoratif. Le pitch est celui d'un jeu de construction de royaume de conte de fées où chaque tuile que vous peignez fait la différence, et toute l'expérience repose sur trois joies qui se répètent.
+
+| Pilier | Ce que vous faites | Ce que le jeu fait en retour |
+|---|---|---|
+| Façonner le terrain | Peindre roche, eau, champs et routes sur des tuiles vides | Les montagnes s'élèvent et captent la neige ; les rivières trouvent leur propre chemin vers le bas et se déversent des falaises en cascades |
+| Le remplir de vie | Placer un quai sur une côte ouverte, relier les routes aux portes d'entrée | Des bateaux arrivent, des villageois débarquent avec des valises, de la fumée s'échappe des cheminées |
+| Prendre soin des habitants | Répondre aux demandes de ponts, de lieux de travail et de logements | Les routes s'élargissent sous les pas, et un hameau tranquille devient un royaume |
+
+Remarquez ce qui manque dans ce tableau : un score, un rival, un minuteur. Le royaume ne rivalise pas avec vous. Il vous répond.
+
+## Comment fonctionne réellement la peinture de tuiles
+
+Le mécanisme central est d'une simplicité trompeuse. Vous peignez des tuiles, et chaque tuile regarde ses voisines avant de décider ce qu'elle va devenir. Peignez de la roche en altitude et vous obtenez une chaîne de montagnes enneigée sur les sommets. Peignez de l'eau là où le terrain s'effondre et la rivière bascule par-dessus le bord en cascade. Rien n'est placé comme un objet fini — tout est déduit du contexte.
+
+Cette logique de voisinage s'étend aux bâtiments, et c'est là que le système devient vraiment astucieux. Une maison seule n'est qu'une maison. Une maison dans le bon environnement devient quelque chose de tout autre.
+
+| Ce que vous peignez | Ce qui l'entoure | Ce qu'il devient |
+|---|---|---|
+| Une maison isolée | Un anneau de route | Une église avec un clocher et une flèche |
+| Une maison | Des champs de tous les côtés | Un moulin à vent, ailes tournant dans le vent |
+| Un village en croissance | Assez de densité et de développement | Un château avec des tours rondes coiffées de chapeaux pointus |
+| Roche | Altitude plus élevée, plus de roche | Des sommets enneigés |
+| Eau | Un bord de falaise | Une cascade |
+
+Le résultat est un système qui peut encore surprendre celui qui le peint. Vous n'estampillez pas des assets préfabriqués ; vous fixez des conditions et regardez le monde les interpréter. Pour un jeu de construction paisible comme Brushland, c'est toute l'astuce — la découverte fait le divertissement, vous n'avez donc jamais à vous battre avec l'interface pour l'obtenir.
+
+## Des villageois qui demandent au lieu d'exiger
+
+Une fois qu'un quai touche la pleine mer, les premiers bateaux arrivent. Les villageois empruntent les routes jusqu'à leur nouvelle porte d'entrée, et la colonie commence à sembler habitée plutôt que décorée. Demandez-leur ce qu'ils font et vous obtenez du texte d'ambiance au lieu d'un journal de quêtes : quelqu'un est « parti pêcher », un autre « moud joyeusement », et un troisième « flâne sur le pas de la porte ». Un villageois porte un mouton et ne voit aucune raison de l'expliquer.
+
+Les véritables demandes sont tout aussi discrètes. Un villageois lance « Un pont, s'il vous plaît ! » quand une route doit traverser l'eau. Un autre annonce « Du travail ! » quand la population a dépassé les emplois locaux. Ce sont des coups de pouce, pas des échéances.
+
+| Ce que vous entendez | Ce que cela signale généralement | Une réponse sensée |
+|---|---|---|
+| « Un pont, s'il vous plaît ! » | Une route est coupée par l'eau | Peignez une tuile pont pour reconnecter l'itinéraire |
+| « Du travail ! » | Les villageois sont plus nombreux que les emplois disponibles | Ajoutez une mine, un moulin ou un atelier à proximité |
+| « Parti pêcher. » / « Moud joyeusement. » | Les villageois sont contents et occupés | Rien — profitez de l'ambiance |
+| Un villageois portant un mouton | Peu clair, et le jeu s'en accommode très bien | Continuez à peindre |
+
+Répondez à ces demandes et la nouvelle se répand que c'est un endroit heureux. D'autres bateaux arrivent, les routes s'élargissent sous tous ces pas supplémentaires, et la colonie grandit d'elle-même sur son propre élan. Cette boucle de rétroaction est le moteur émotionnel du jeu : vous n'optimisez pas, on vous remercie.
+
+## Pas d'horloge, pas d'échec, pas de précipitation
+
+C'est la fonctionnalité qui vaut à Brushland sa réputation avant même sa sortie. Il n'y a ni horloge ni état d'échec. La pire chose qu'un peintre puisse faire est de faire apparaître un lac sous une foule, moment auquel les villageois s'éloignent en cabriolant en criant « Je tombe ! Pitié ! » et nagent vers une nouvelle maison. Même cela est réversible.
+
+Comparez cela à la boucle de simulation standard, et l'intention de conception devient évidente :
+
+| City builder typique | Brushland |
+|---|---|
+| Objectifs chronométrés et pression croissante | Aucune horloge nulle part dans la conception |
+| Faillite, effondrement ou game over | Aucun état d'échec |
+| Démolir et reconstruire de zéro | Les erreurs peuvent être annulées |
+| Inondation traitée comme une catastrophe | Inondation traitée comme un léger désagrément avec une animation amusante |
+| L'optimisation est le but | La décoration et le soin sont le but |
+
+Si vous avez décroché des jeux de gestion parce que les états d'échec ressemblaient à des devoirs, c'est le choix de conception qui vous convaincra. La liste de tags du jeu penche fortement dans la même direction — cozy, relaxant, mignon, coloré, atmosphérique, familial — et l'annonce de sa présence dans The MIX Fall Online Showcase 2026, où environ 65 jeux indés ont été sélectionnés parmi plus de 500 candidatures, suggère que l'industrie prête aussi attention à ce positionnement.
+
+## Partager un royaume : 42 palettes de couleurs et des codes textuels
+
+Un royaume terminé n'est pas une impasse. Vous pouvez essayer 42 palettes de couleurs différentes, ce qui est un nombre significatif pour un jeu entièrement construit sur l'ambiance — une même disposition peut évoquer un matin de printemps, un crépuscule d'automne ou un plein hiver selon la palette choisie. Ensuite, vous pouvez plier le tout dans un court code textuel et l'envoyer à un ami comme une lettre. Pas de transfert de fichiers, pas de gymnastique de compte.
+
+L'ensemble des fonctionnalités Steam soutient cela avec les outils habituels de partage et de persistance :
+
+| Fonctionnalité Steam | Ce que cela signifie pour vous |
+|---|---|
+| Solo | Toute l'expérience est conçue pour un seul peintre à la fois |
+| Steam Workshop | Partagez et parcourez les créations de la communauté |
+| Éditeur de niveaux inclus | Créez vos propres paysages de départ et scénarios |
+| Steam Cloud | Vos royaumes vous suivent d'une machine à l'autre |
+| Succès et statistiques | Des objectifs légers pour les joueurs qui en veulent |
+| Partage familial | Facile de passer le jeu à quelqu'un d'autre dans la maison |
+
+Les configurations système sont modestes, ce qui convient au genre : 4 Go de RAM et 1 Go d'espace de stockage sous Windows 10/11, macOS 12 Monterey ou plus récent, ou une version moderne d'Ubuntu 64 bits. Vous n'aurez pas besoin d'un nouveau GPU pour peindre un royaume.
+
+## Conseils pour votre premier royaume paisible
+
+Même sans état d'échec, un peu de planification rend les premières heures plus fluides. Ces habitudes découlent directement du fonctionnement de la logique des tuiles :
+
+- **Peignez le terrain avant les bâtiments.** L'altitude et l'eau décident où les routes peuvent passer, alors fixez d'abord vos montagnes et vos rivières.
+- **Laissez les bords de falaise nus.** Les cascades n'apparaissent que là où l'eau rencontre une chute, alors résistez à l'envie de remplir chaque rebord.
+- **Regroupez les maisons tôt.** C'est la densité qui pousse une poignée de chaumières vers un village, et finalement vers un château.
+- **Placez vite un quai sur la côte.** Les bateaux sont votre système de livraison de villageois, et les villageois sont vos demandes.
+- **Répondez immédiatement aux appels.** La nouvelle circule ; une colonie heureuse attire plus d'arrivées.
+- **Sauvegardez une palette que vous aimez avant de partager.** Avec 42 palettes disponibles, il est facile de perdre l'ambiance exacte que vous avez créée.
+
+Considérez le jeu de construction paisible Brushland comme un diorama auquel vous revenez sans cesse plutôt qu'une campagne que vous terminez. Le plaisir est dans la seconde passe — élargir une route que vous avez peinte il y a une heure, ou remplacer un champ par un moulin à vent parce que la ligne d'horizon en avait besoin.
+
+## FAQ
+
+**Brushland est-il vraiment un jeu de construction paisible sans combat ?**
+Oui. Il n'y a pas d'ennemis, pas de raids et pas de systèmes de combat. Les tags de la boutique le décrivent comme cozy, relaxant et familial, et le développeur déclare explicitement qu'il n'y a ni horloge ni échec. L'événement le plus dramatique est un villageois qui tombe dans un lac que vous avez peint sous ses pieds.
+
+**Quand Brushland sortira-t-il, et où puis-je le suivre ?**
+La date de sortie est indiquée comme « à venir », sans fenêtre confirmée. Vous pouvez l'ajouter à votre liste de souhaits et être notifié au lancement via [la page Steam officielle de Brushland](https://store.steampowered.com/app/5163450/Brushland/), qui héberge aussi la bande-annonce d'annonce du gameplay et les actualités du développeur.
+
+**Sur quelles plateformes Brushland tournera-t-il ?**
+Windows, macOS et Linux sont tous listés, la compatibilité Steam Deck étant marquée comme inconnue au moment de la rédaction. Les configurations minimales sont douces — un Intel Core i3 ou Ryzen 3 de milieu de gamme, 4 Go de RAM et 1 Go de stockage.
+
+**Puis-je partager le royaume que je construis ?**
+Oui. Les royaumes terminés peuvent être exportés sous forme d'un court code textuel et envoyés à des amis, et le support de Steam Workshop ainsi qu'un éditeur de niveaux inclus ouvrent un partage plus large. Vous pouvez aussi recolorer une construction terminée avec n'importe laquelle des 42 palettes disponibles avant de l'envoyer.
+
+**Qui est derrière le jeu ?**
+Transhuman Design, le studio de Michał Marcinkowski, qui a précédemment réalisé Soldat et King Arthur's Gold. Le jeu cite le château de Neuschwanstein et les œuvres de Tiny Glade, Townscaper et Islandoodle comme inspirations — une carte assez fidèle de ce à quoi s'attendre côté ton.

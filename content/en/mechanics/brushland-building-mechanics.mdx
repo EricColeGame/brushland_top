@@ -1,0 +1,131 @@
+export const metadata = {
+  title: "Brushland Building Mechanics Explained: How Tile Painting Builds a Kingdom",
+  description: "A practical guide to Brushland building mechanics: how tile painting, neighbor rules, and villager requests turn painted land into a living kingdom.",
+  category: "mechanics",
+  date: "2026-10-20",
+}
+
+Brushland is a fairytale kingdom-builder where you never drag a single building into place — you paint terrain, and the world decides what belongs there. Understanding **Brushland building mechanics** really comes down to one rule: every tile looks at its neighbors and transforms accordingly. Once that clicks, a handful of painted squares becomes a hamlet, then a town, then a kingdom with round towers in pointy hats — and you did it with a brush instead of a menu.
+
+That is why these mechanics matter. Most city builders ask you to pick a building from a list. Brushland asks you to describe a situation and then rewards you with architecture you may not have predicted. This guide breaks down the loop, the transformation rules, the terrain systems, and the safety nets that make the whole thing feel like play rather than optimization.
+
+## The Core Loop of Brushland Building Mechanics
+
+Every session follows the same three-beat rhythm, and the developer's own description on the [official Brushland Steam page](https://store.steampowered.com/app/5163450/Brushland/) frames it as "shaping a land, watching it fill with life, and caring for the people who called it home." The Brushland building mechanics sit entirely inside that middle beat — the land responds, and you respond back.
+
+| Step | What you do | What the game does | Why it matters |
+|---|---|---|---|
+| 1. Shape | Paint rock, water, fields, roads | Terrain rises, rivers find a path, cliffs become waterfalls | Sets the physical stage |
+| 2. Settle | Place a dock at open sea, ring a house with road | Boats arrive, villagers walk in with suitcases | Starts population growth |
+| 3. Tend | Answer requests for bridges, mines, cottages | New building types appear, roads widen | Unlocks the next tier |
+| 4. Expand | Keep painting around existing clusters | Village becomes town, then castle | Long-term progression |
+
+The important detail is that nothing in that table is a "build" command. There is no construction queue and no resource cost listed in a panel. The act of painting is the input, and the tile logic is the output. Players who try to plan a perfect layout on paper usually end up fighting the system — the better approach is to paint a little, watch what the tiles decide, and then paint more.
+
+### Start small, then read the result
+
+A single house on a road does very little. Surround it with fields and it becomes a windmill whose sails actually turn. Ring a lonely house with road and it becomes a church with a belfry and a spire. Those two outcomes alone tell you the design philosophy: adjacency is the real building menu.
+
+## The Neighbor Rule: How Tiles Decide What to Become
+
+If you only learn one thing about **Brushland building mechanics**, learn the neighbor rule. Each tile evaluates what sits next to it and picks a form from that context. The painter is not placing a church; the painter is placing a house in a situation that means "church."
+
+| Painted pattern | Emergent result | Practical takeaway |
+|---|---|---|
+| Isolated house | Plain house | Fine as a seed, not a destination |
+| House ringed by road | Church with belfry and spire | Roads are structural, not just decorative |
+| House surrounded by fields | Windmill with turning sails | Agriculture drives vertical landmarks |
+| Dense, repeated village growth | Castle with round towers | Scale itself is a transformation trigger |
+| Lake painted under a crowd | Villagers cartwheel away and swim off | Water is a hard boundary for population |
+
+This is procedural generation in service of charm rather than randomness. The results are deterministic enough to aim for once you know the patterns, but varied enough that the developer admits even the painter can be surprised.
+
+### Practical tips for exploiting adjacency
+
+- **Paint rings, not dots.** A single tile of road does nothing; a loop of road around a house flips it into a church.
+- **Cluster fields before you cluster houses.** Fields are the cheapest way to convert a plain house into a windmill, which is a strong visual anchor for a new district.
+- **Leave room for the castle.** The castle appears as the village grows, so dense packing early can box you in.
+- **Treat water as a wall.** Anything you paint as a lake pushes villagers out of that space entirely.
+
+## Painting Terrain: Rock, Rivers, and Waterfalls
+
+Terrain is the foundation layer of **Brushland building mechanics**, and it is the most forgiving place to experiment. Where you lay rock, mountains rise and catch snow. Water follows gravity, finds its own downhill route, and tips over cliffs as waterfalls. You are not sculpting a mesh — you are describing a landscape and letting the tiles resolve it.
+
+| Brush type | Emergent behavior | Best use |
+|---|---|---|
+| Rock / stone | Mountains rise, snow appears at height | Skyline, dramatic backdrops, natural borders |
+| Water | Rivers route themselves downhill | Waterfalls at cliff edges, scenic corridors |
+| Fields | Enables agricultural transformations | Windmills, rural districts |
+| Road | Connects doors, upgrades adjacent buildings | Church conversion, wider roads later |
+| Open sea + dock | Boats arrive with new villagers | Population growth trigger |
+
+Because rivers pick their own path, the smart workflow is to paint the high ground first and the water second. If you paint water before the mountain exists, the river has nowhere dramatic to fall from. Paint the cliff, then let the water find the drop.
+
+### Waterfalls are a signal, not a decoration
+
+A waterfall is what the game shows you when water meets a height difference it cannot flow around. That makes it a useful diagnostic tool: if you expected a waterfall and got a flat lake, your elevation change is too gentle. Add rock, and the drop returns.
+
+## Villagers, Docks, and Requests: The Growth Layer
+
+Population is where **Brushland building mechanics** stop being purely spatial and start being conversational. Build a dock by open sea and the first boats arrive. Villagers step ashore with suitcases, walk the roads to their front doors, and smoke starts rising from chimneys. Ask what they are doing and you get answers like "Gone fishing," "Milling merrily," or "Doorstep dawdling" — and occasionally someone carrying a sheep who sees no need to explain.
+
+After that, villagers begin asking for things. This is the game's quest layer, and it is deliberately low-pressure.
+
+| Villager request | What you paint | Result |
+|---|---|---|
+| "Bridge, please!" | A crossing over water | Connects separated districts |
+| "Work wanted!" | A mine or similar job site | Keeps residents employed and content |
+| A cottage with a view | Housing on scenic ground | Raises the area's appeal |
+| More arrivals | Additional docks and wider roads | Higher population tier |
+
+Word spreads that the place is happy, more boats come, and roads visibly widen under all those footsteps. That widening is worth watching — it is the clearest visual readout that your **Brushland building mechanics** decisions are working. If the roads stay narrow, your village is not thriving yet.
+
+### Reading the feedback loop
+
+- Foot traffic widening a road = growth is confirmed.
+- Smoke from chimneys = houses are occupied.
+- New boats at the dock = requests were satisfied.
+- Silence and empty roads = paint something villagers asked for.
+
+## Sandbox Rules, Colors, and Sharing Tools
+
+The most underrated part of **Brushland building mechanics** is that there is no clock and no failure state. You cannot lose. The worst outcome described is painting a lake under a crowd — they cartwheel away shouting about falling, then swim off to find a new home — and even that can be undone. For players coming from survival-tinged builders, this changes how you should play: experiment boldly, because mistakes are reversible.
+
+| System | How it works | Why it helps |
+|---|---|---|
+| No timer | Nothing advances unless you paint | Play at your own pace |
+| No failure | No lose condition exists | Removes optimization anxiety |
+| Undo | Even displaced villagers can be restored | Safe experimentation |
+| 42 color looks | Apply a palette to a finished kingdom | Instant visual refresh |
+| Text code sharing | Fold a kingdom into a short code | Send a build to a friend like a letter |
+| Steam Workshop + level editor | Share and build custom content | Community longevity |
+
+That last row matters for the long tail. The Steam listing confirms Steam Workshop support, Steam Achievements, Steam Cloud, and an included level editor — so the tile rules you learn in the main sandbox are also the raw material for community-made maps and shared kingdoms.
+
+Because Brushland is still listed as coming soon, there is no broad base of hands-on player experience to draw on yet. The mechanics described here come from the developer's own announcements and store description rather than community reports, so treat specific transformation patterns as documented examples rather than an exhaustive list. The underlying rule — tiles react to neighbors — is the part that will hold up as more patterns are discovered.
+
+### A beginner-friendly opening sequence
+
+1. Paint a small patch of rock for a backdrop.
+2. Add a cliff edge, then let water fall off it.
+3. Paint one road and one house on that road.
+4. Ring the house with road to trigger a church.
+5. Paint fields nearby and grow a windmill.
+6. Add open sea and a dock to start arrivals.
+7. Answer the first requests before expanding further.
+
+## FAQ
+
+**Do I place buildings directly in Brushland?**
+No. The **Brushland building mechanics** are paint-first: you choose terrain and infrastructure tiles, and buildings emerge from how those tiles relate to one another. Your control comes from layout, not from a build menu.
+
+**What happens if I paint water under my villagers?**
+They cartwheel away, complain about falling, and swim off to find a new home. The developer notes that even this can be undone, so there is no permanent loss.
+
+**Is there a fail state or a time limit?**
+There is no clock and no failure condition. Nothing advances unless you keep painting, which makes the game closer to a diorama toy than a management sim.
+
+**Can I share the kingdom I build?**
+Yes. A finished kingdom can be folded into a short text code and sent to a friend, and it can also be re-skinned with 42 different color looks. Steam Workshop and the included level editor extend that sharing further.
+
+Mastering **Brushland building mechanics** is less about memorizing recipes and more about learning to think in adjacency. Paint a situation, watch the tiles answer, and let the kingdom tell you what it wants to become next.

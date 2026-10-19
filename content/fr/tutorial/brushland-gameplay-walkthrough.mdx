@@ -1,0 +1,145 @@
+export const metadata = {
+  title: "Guide de gameplay Brushland : le guide du débutant pour peindre un royaume",
+  description: "Un guide de gameplay Brushland pratique couvrant les combos d’adjacence des tuiles, les demandes des villageois, la peinture du terrain et les outils de partage de royaume.",
+  category: "tutorial",
+  date: "2026-10-20",
+}
+
+## Pourquoi ce guide de gameplay Brushland existe avant la sortie
+
+Brushland est un jeu de construction de royaume de conte de fées où le monde entier se peint une tuile à la fois, et cette seule mécanique transforme la façon dont vous devez aborder tout le reste. Si vous avez cherché un guide de gameplay Brushland et êtes revenu les mains vides, c’est normal — le jeu est encore annoncé comme « bientôt disponible », donc personne n’a encore enregistré de partie complète. Ce qui existe, en revanche, c’est une analyse détaillée du développeur sur la façon dont la simulation réagit à vos coups de pinceau, et c’est la base sur laquelle tout véritable guide de gameplay Brushland doit être construit.
+
+Ce guide prend ces informations de conception publiées et les transforme en quelque chose que vous pouvez réellement utiliser : un parcours structuré de la boucle principale, les règles d’adjacence qui décident de ce que devient votre village, et les petites habitudes qui distinguent un royaume bien ordonné d’un amas de maisons éparpillées.
+
+## Brushland en un coup d’œil : la boucle principale
+
+Brushland est développé et publié par Transhuman Design, le studio de Michał Marcinkowski — le créateur derrière Soldat et King Arthur's Gold. Ce passé vaut la peine d’être connu. C’est un créateur qui conçoit des systèmes réagissant aux actions du joueur plutôt que des campagnes scriptées, ce qui signifie que le jeu récompense l’expérimentation plutôt que la mémorisation.
+
+La boucle que vous répéterez pendant des heures est courte :
+
+1. Peignez le terrain (roche, eau, herbe, champs).
+2. Peignez des bâtiments, des routes et des terres agricoles par-dessus.
+3. Regardez les tuiles se transformer en quelque chose que vous n’avez pas littéralement placé.
+4. Lisez les demandes formulées par vos villageois.
+5. Peignez la réponse.
+6. Regardez le village devenir quelque chose de plus grand.
+
+| Détail | Ce que cela implique pour votre façon de jouer |
+|---|---|
+| Développeur | Transhuman Design (Michał Marcinkowski) |
+| Genre | Simulation indépendante / jeu de construction |
+| Verbe principal | Peindre des tuiles, pas placer des bâtiments préfabriqués |
+| État d’échec | Aucun — il n’y a ni chrono ni condition de défaite |
+| Rythme | Délibérément tranquille et douillet |
+| Modes | Solo, avec un éditeur de niveaux intégré |
+| Plateformes | Windows, macOS et SteamOS/Linux |
+| Statut de sortie | Annoncé comme « bientôt disponible » sur Steam |
+
+La ligne la plus importante de ce tableau est celle de l’état d’échec. Il n’y en a pas. Dans Brushland, les conséquences sont comiques et réversibles plutôt que punitives, ce qui vous libère pour faire exprès le bazar.
+
+### Ce qu’il faut pour le faire tourner
+
+| Composant | Configuration minimale |
+|---|---|
+| OS | Windows 10/11, macOS 12 Monterey ou plus récent, Ubuntu 22.04/24.04 (64 bits) |
+| Processeur | Intel Core i3-8100 / AMD Ryzen 3 3200G, ou Apple M1 / Intel Core i3 quadricœur à 3,6 GHz |
+| Mémoire | 4 Go de RAM |
+| Graphismes | GPU compatible DirectX 11, GPU compatible Metal ou GPU compatible Vulkan |
+| Stockage | 1 Go d’espace disponible |
+
+La barre est basse. Un ordinateur portable modeste devrait s’en sortir sans problème, ce qui colle à la personnalité relaxante du jeu, pensée pour y jouer vingt minutes.
+
+## Les combos d’adjacence des tuiles : le vrai moteur du jeu
+
+Voici la règle avec laquelle un bon guide de gameplay Brushland doit commencer : chaque tuile observe ses voisines et décide de ce qu’elle va devenir. Vous ne placez pas une église. Vous créez les conditions pour qu’une maison décide de devenir une église.
+
+Les exemples du développeur rendent cela concret. Encerclez une maison isolée avec de la route et elle se transforme en église avec clocher et flèche. Entourez une maison de champs et elle devient un moulin à vent dont les ailes tournent vraiment. Continuez d’augmenter la densité de bâtiments autour du cœur de votre village et le village finit par décider qu’il a dépassé sa taille, faisant pousser un château aux tours rondes coiffées de chapeaux pointus.
+
+| Ce que vous peignez | Où vous le peignez | Ce que cela devient |
+|---|---|---|
+| Route | Encerclant une maison isolée | Église avec clocher et flèche |
+| Champs | Entourant une maison | Moulin à vent aux ailes tournantes |
+| Habitat dense | Autour du centre du village | Château avec tours rondes |
+| Roche | N’importe où sur la carte | Montagnes qui accrochent la neige |
+| Eau | Près d’un à-pic | Rivières qui basculent en cascades |
+
+### Pourquoi cela vaut mieux que le plan sur papier
+
+Les joueurs venus des jeux de construction traditionnels essaient souvent de planifier une disposition sur papier. Cette approche va à l’encontre du jeu. Comme le résultat dépend des voisines, l’habitude productive consiste à peindre par passes : d’abord les formes grossières, puis les anneaux et les bordures, enfin les finitions. Vous sculptez des conditions, vous ne dessinez pas un plan d’implantation.
+
+Le développeur note que même la personne qui tient le pinceau peut être surprise par le résultat. Considérez cela comme une fonctionnalité. Si une maison se transforme en moulin à vent alors que vous vouliez une boulangerie, vous n’avez rien perdu — vous avez appris une règle.
+
+## Peindre le terrain : montagnes, rivières et cascades
+
+C’est sur le terrain que la simulation se montre le plus clairement. Posez de la roche et des montagnes s’élèvent, assez hautes pour accrocher la neige à leurs sommets. Posez de l’eau et les rivières trouvent leur propre chemin vers le bas, débordant au bord des falaises en cascades plutôt que de suivre un tracé que vous avez dessiné.
+
+Cette autonomie est le but. Vous suggérez ; le terrain décide. Deux conseils pratiques :
+
+- **Travaillez du large vers le détail.** Posez les grandes masses de vos chaînes de montagnes et de vos côtes avant de toucher aux tuiles individuelles.
+- **Laissez l’eau vous surprendre.** Si une rivière passe par un endroit inattendu, c’est généralement une meilleure composition que celle que vous aviez en tête.
+
+Il existe aussi un filet de sécurité qui rend les expérimentations de terrain peu coûteuses. D’après la description du développeur, la pire chose que vous puissiez faire est de peindre un lac sous une foule — les villageois s’éloignent en faisant la roue en criant qu’ils tombent, puis nagent vers un nouveau foyer. Même cela est annulable. Rien n’est perdu définitivement.
+
+| Pinceau de terrain | Résultat typique | Bonne pratique |
+|---|---|---|
+| Roche | Montagnes enneigées | Peindre les chaînes par grands traits d’abord |
+| Eau | Rivières et cascades qui trouvent leur propre chemin | Suivre la pente du terrain, ne pas la combattre |
+| Herbe / terrain ouvert | Base constructible pour le village | Laisser de la place pour les anneaux de routes |
+| Champs | Terres agricoles autour des habitations | Les regrouper autour des maisons pour déclencher les moulins |
+
+## Demandes des villageois et croissance du royaume
+
+Dès que vous placez un quai face à la mer ouverte, les premiers bateaux arrivent. Les villageois débarquent avec leurs valises, suivent vos routes jusqu’à leur porte, et de la fumée commence à s’élever des cheminées. À partir de ce moment, le village vous parle.
+
+Les demandes apparaissent sous forme de courtes interpellations. Un villageois réclame un pont. Un autre annonce qu’il veut du travail. Votre rôle est de répondre avec de la peinture : un pont au-dessus de l’eau, une mine pour les ouvriers, une chaumière avec une vue qui vaut le réveil. Satisfaites-en assez et la nouvelle se répand que c’est un endroit heureux — d’autres bateaux arrivent, les routes s’élargissent sous le passage des piétons, et le hameau grandit jusqu’à ressembler à un royaume.
+
+Les bavardages oisifs méritent d’être écoutés comme des informations de diagnostic, pas seulement comme du décor. Les villageois racontent ce qu’ils font — pêcher, moudre, traîner sur le pas de la porte — et transportent parfois un mouton sans la moindre explication.
+
+| Appel | Ce qu’il signale | Réponse suggérée |
+|---|---|---|
+| « Un pont, s’il vous plaît ! » | Une route est bloquée par l’eau | Peindre une tuile de pont pour franchir l’obstacle |
+| « On cherche du travail ! » | La population dépasse les emplois disponibles | Ajouter une mine ou un bâtiment de production |
+| Bavardages sur la mouture | Le moulin à vent fonctionne | Laisser les champs alentour intacts |
+| Nouveaux bateaux qui arrivent | La réputation monte | Continuer à répondre aux demandes pour soutenir la croissance |
+
+Les retours de la communauté issus de la couverture de l’annonce suggèrent que le système de demandes est le principal moteur du rythme — c’est lui qui remplace le chrono. Répondez aux demandes et le royaume s’étend ; ignorez-les et il vous attend simplement.
+
+## Partager des royaumes, ambiances colorées et outils Workshop
+
+Un royaume terminé n’est pas une impasse. Vous pouvez essayer 42 ambiances colorées différentes sur la même disposition, un moyen rapide de trouver une humeur — matin brumeux, plein été, or automnal. Quand vous en trouvez une qui vous plaît, toute la construction se replie en un court code texte que vous pouvez envoyer à un ami comme une lettre.
+
+Au-delà de cela, la liste des fonctionnalités inclut la prise en charge de Steam Workshop, un éditeur de niveaux, les sauvegardes Steam Cloud, des succès et le partage familial. Pour un jeu aussi doux, le Workshop sera probablement l’endroit où vivront les idées les plus étranges de la communauté.
+
+| Outil | Ce qu’il fait | Pourquoi c’est important |
+|---|---|---|
+| Ambiances colorées | 42 traitements de palette | Restyler instantanément un royaume terminé |
+| Codes de partage | Export texte court de votre création | Échanger des royaumes sans transfert de fichiers |
+| Éditeur de niveaux | Créer des scénarios personnalisés | Mettre en place vos propres défis |
+| Steam Workshop | Parcourir et partager des créations | De nouvelles cartes à l’infini après avoir fini les vôtres |
+| Steam Cloud | Synchroniser les sauvegardes entre machines | Reprendre là où vous vous êtes arrêté |
+
+Si vous voulez la source officielle pour la date de sortie et les mises à jour des fonctionnalités, la [page officielle de Brushland sur Steam](https://store.steampowered.com/app/5163450/Brushland/) est l’endroit à surveiller — l’ajouter à votre liste de souhaits déclenche une notification à sa mise en ligne.
+
+## Questions fréquentes
+
+### Existe-t-il déjà un guide de gameplay Brushland complet ?
+
+Pas encore. Le jeu est annoncé comme « bientôt disponible », donc aucune partie complète enregistrée n’existe. Ce guide de gameplay Brushland est construit à partir des détails de conception publiés par le développeur et couvre les systèmes avec lesquels vous interagirez dès votre première minute.
+
+### Peut-on échouer ou perdre sa progression dans Brushland ?
+
+Non. Il n’y a ni chrono ni état d’échec. Le résultat le plus dur décrit par le développeur est de noyer accidentellement un groupe de villageois, qui nagent aussitôt vers un nouveau lieu de vie — et même cela peut être annulé. Jouez sans hésiter.
+
+### Comment créer une église ou un moulin à vent ?
+
+Vous ne les placez pas directement. Encerclez une maison isolée avec des tuiles de route pour obtenir une église avec clocher et flèche, ou entourez une maison de champs pour obtenir un moulin à vent aux ailes fonctionnelles. Tout est une question d’adjacence.
+
+### Puis-je partager le royaume que je construis ?
+
+Oui. Les constructions terminées peuvent être exportées sous forme d’un court code texte et envoyées à un autre joueur, et la prise en charge de Steam Workshop ainsi qu’un éditeur de niveaux devraient prolonger le jeu bien après la sortie grâce au contenu de la communauté.
+
+## Derniers conseils pour votre premier royaume
+
+Considérez votre première heure comme un guide de gameplay Brushland que vous écrivez vous-même. Peignez un littoral, posez un quai et regardez qui arrive. Répondez aux premières demandes avant de commencer à décorer — il est plus facile de styliser une croissance qui existe déjà. Gardez des anneaux de route serrés autour des maisons isolées pour obtenir des églises plutôt que de l’étalement, et regroupez les champs autour des habitations pour déclencher les moulins à vent tôt.
+
+Surtout, résistez à l’envie de planifier. Le plaisir ici est de regarder les tuiles négocier avec leurs voisines et produire quelque chose que vous n’aviez qu’à moitié prévu. Peignez large, écoutez vos villageois et laissez le royaume vous répondre.

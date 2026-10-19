@@ -1,0 +1,132 @@
+export const metadata = {
+  title: "Brushland, el juego de construcción de reinos: las funciones de pintar la tierra que lo hacen especial",
+  description: "Un análisis a fondo de Brushland, el acogedor constructor de reinos donde cada casilla pintada reacciona, los aldeanos piden puentes y nada puede fracasar.",
+  category: "features",
+  date: "2026-10-20",
+}
+
+## Por qué el juego de construcción de reinos Brushland se siente diferente
+
+El juego de construcción de reinos Brushland empieza con un pincel, no con una hoja de cálculo. Pintas roca, agua, campos y caminos casilla a casilla, y el mundo te responde: las montañas se alzan donde la piedra se apila sobre piedra, los ríos se despeñan por los acantilados como cascadas, y una casa rodeada de camino se convierte en silencio en una iglesia con campanario y aguja. Ese terreno reactivo es lo que separa a este acogedor constructor indie de los sims de hoja de cálculo: tú moldeas las condiciones y la tierra decide en qué quiere convertirse.
+
+Esto es lo que el juego de construcción de reinos Brushland hace realmente de forma distinta, función por función.
+
+| Función | Cómo funciona | Por qué importa |
+|---|---|---|
+| Pintado de casillas | Cepillas terreno y estructuras sobre una cuadrícula; cada casilla comprueba sus vecinas | Resultados emergentes en lugar de edificios colocados desde un menú |
+| Evolución por adyacencia | Las casas mejoran a iglesias, molinos o castillos según su entorno | Planificar se siente como jardinería, no como zonificación |
+| Peticiones de los aldeanos | Los residentes piden puentes, trabajo y mejores vistas | El crecimiento lo impulsan las personas, no los medidores |
+| Sin estado de derrota | Sin reloj, sin bancarrota, sin fin del juego; incluso los errores se pueden deshacer | Juego genuinamente relajante |
+| Herramientas para compartir | 42 estilos de color más códigos de texto cortos para tu reino terminado | Fácil de mostrar a tus amigos lo que has construido |
+| Editor de niveles | Editor integrado y compatibilidad con Steam Workshop | Mapas y escenarios creados por jugadores |
+
+El proyecto viene de Transhuman Design, el estudio de Michał Marcinkowski, el desarrollador detrás de Soldat y King Arthur's Gold. Está listado como «próximamente» en Steam sin fecha de lanzamiento firme, con interfaz solo en inglés en el momento de escribir esto y centrado en un jugador. Si quieres seguirlo, la [página oficial de Brushland en la tienda de Steam](https://store.steampowered.com/app/5163450/Brushland/) recoge las publicaciones de anuncios y el tráiler.
+
+## Cómo la adyacencia de casillas convierte el pintado en arquitectura
+
+El bucle central del juego de construcción de reinos Brushland es engañosamente sencillo: cada casilla mira a sus vecinas y decide en qué convertirse. Pinta roca en grupo y la elevación sube hasta que los picos se cubren de nieve. Pinta agua en el borde de una meseta y encuentra su propio camino hacia abajo, volcándose por el borde como una cascada en lugar de inundarlo todo planamente.
+
+Esa regla de «cada casilla comprueba sus vecinas» es donde viven las sorpresas. No estás seleccionando «molino» de un menú de construcción: estás creando las condiciones para que una casa se dé cuenta de que debería ser un molino.
+
+| Lo que pintas | Lo que emerge | Notas |
+|---|---|---|
+| Roca en grupo | Montañas que se alzan con cumbres nevadas | La altura se infiere de las casillas circundantes |
+| Agua junto al borde de un acantilado | Cascada | Los ríos trazan su propio curso cuesta abajo |
+| Una casa rodeada por completo de camino | Iglesia con campanario y aguja | La mejora por adyacencia clásica |
+| Una casa rodeada de campos | Molino con aspas giratorias | Lo activan las casillas agrícolas |
+| Crecimiento sostenido de la aldea | Castillo con torres redondas y puntiagudas | El asentamiento «se hace ideas por encima de sus posibilidades» |
+| Un muelle en mar abierto | Barcos que llegan y nuevos aldeanos | Desbloquea el crecimiento de población |
+
+**Consejos prácticos para planificar un orden de pintado:**
+
+- **Empieza por la elevación, no por los edificios.** El terreno dicta por dónde puede fluir el agua y dónde aparecerán las cascadas. Acierta con la tierra y lo demás vendrá solo.
+- **Deja huecos en los anillos a propósito.** Si quieres una iglesia, mantén despejado el perímetro de una casa para poder completar después un anillo de camino entero.
+- **Agrupa los campos antes de colocar viviendas.** Una casa que cae junto a tierras de cultivo ya existentes mejora al instante en lugar de esperar.
+- **Vigila tu agua antes de construir.** Pintar un lago bajo una multitud es la única forma fiable de incomodar a los aldeanos: salen rodando, gritan pidiendo clemencia y se alejan nadando para reasentarse. También es totalmente reversible.
+- **Prueba en tandas pequeñas.** Las reglas de adyacencia se acumulan, así que un experimento de cinco casillas te dice más que un plan de cincuenta.
+
+## Aldeanos, peticiones y el bucle de crecimiento
+
+En cuanto un muelle toca mar abierto, llegan los primeros barcos. Los aldeanos desembarcan con maletas, recorren los caminos hasta sus nuevas puertas y el humo empieza a rizarse en las chimeneas. Es el momento en que el juego de construcción de reinos Brushland pasa del paisajismo a la mayordomía.
+
+Pregunta a los residentes qué están haciendo y obtendrás texto de ambientación en lugar de estadísticas: «Me fui a pescar». «Moliendo alegremente». «Holgazaneando en el umbral». Uno lleva una oveja en brazos y no ve necesidad de explicarlo. Es escritura pequeña, pero vende la fantasía de que son personas con rutinas en lugar de contadores de población.
+
+Luego llegan las peticiones, que funcionan como un registro de misiones suave:
+
+| Petición del aldeano | Respuesta típica | Efecto |
+|---|---|---|
+| «¡Un puente, por favor!» | Pinta un puente sobre el agua | Reconecta caminos cortados, mantiene a los aldeanos caminando |
+| «¡Busco trabajo!» | Coloca una mina o una casilla de trabajo similar | Da a los residentes algo que hacer |
+| Una casita con vistas | Construye en terreno alto o pintoresco | Aumenta la felicidad general |
+| Más viviendas | Amplía los caminos y abre nuevas parcelas | El boca a boca se extiende; llegan más barcos |
+
+Responde a suficientes y la reputación se acumula. Se corre la voz de que este es un lugar feliz, llegan más barcos, los caminos se ensanchan bajo tantas pisadas y la tranquila aldea crece y crece hasta que de verdad se lee como un reino. Esa escalada —de un puñado de casillas a un país— es la recompensa emocional del juego de construcción de reinos Brushland, y ocurre sin una sola barra de progreso.
+
+## Sin reloj, sin derrota: la filosofía de diseño acogedora
+
+La decisión de diseño más audaz del juego de construcción de reinos Brushland es la ausencia de presión. No hay temporizador, ni colapso de recursos, ni estado de derrota. El peor resultado posible es incomodar temporalmente a un aldeano, y hasta eso se puede deshacer con un clic.
+
+Compáralo con el estándar del género:
+
+| Elemento de diseño | Constructores de ciudades tradicionales | Brushland |
+|---|---|---|
+| Presión temporal | Ciclos de día y noche, plazos, estaciones | Ningún reloj en absoluto |
+| Derrota | Bancarrota, disturbios, abandono | Sin estado de derrota |
+| Deshacer | Normalmente limitado o ausente | Los errores son reversibles |
+| Colocación de edificios | Elegir de un menú | Pintar condiciones y dejar que las casillas evolucionen |
+| Condición de victoria | Objetivos de escenario o metas de población | Ninguna: simplemente sigues cuidando |
+| Estilo de sesión | Largas partidas de optimización | Sesiones creativas cortas y ocasionales |
+
+Por eso el juego encaja tan cómodamente junto a Tiny Glade, Townscaper e Islandoodle, todos citados como inspiraciones, junto con el castillo de Neuschwanstein y la obra de Anastasia Opara, Tomasz Stachowiak, Oskar Stålberg y Matt Stark. El linaje del género importa: son juguetes tanto como juegos, y triunfan cuando el acto de crear resulta agradable por sí mismo.
+
+Los informes de la comunidad sobre la profundidad a largo plazo aún son escasos, ya que el juego no se ha lanzado y la página de Steam todavía no muestra reseñas de usuarios. La experiencia de los jugadores con títulos comparables sugiere que la verdadera pregunta no será «¿puedo perder?» sino «¿querré una decimoquinta aldea?». Las herramientas para compartir integradas están claramente diseñadas para responder que sí.
+
+## Compartir, mods y el editor de niveles
+
+Un reino terminado se puede vestir con uno de 42 estilos de color y luego plegarse en un código de texto corto y enviarse a un amigo como una carta. Es un mecanismo para compartir notablemente sencillo: sin capturas de pantalla, sin transferencias de archivos, solo una cadena que pegas.
+
+El conjunto de funciones de Steam respalda el enfoque creativo:
+
+| Función de Steam | Qué permite |
+|---|---|
+| Steam Workshop | Distribuir y suscribirse a contenido creado por jugadores |
+| Editor de niveles (incluido) | Crear mapas y escenarios personalizados |
+| Steam Cloud | Llevar las partidas guardadas entre máquinas |
+| Logros | Metas ligeras para los completistas |
+| Compartir en familia | Permitir que los miembros del hogar jueguen |
+| Un jugador | Diseñado en torno a sesiones en solitario y sin prisa |
+
+El editor de niveles es la función sorpresa aquí. Para un juego construido sobre reglas de adyacencia, los mapas creados por jugadores son un canal natural de contenido: alguien puede construir a mano un valle de puzles donde la única colocación válida de una iglesia esté en una cresta concreta. Ya sea que el Workshop se llene de dioramas artesanales o de retos de adyacencia perversos, las herramientas existen para ambos.
+
+El juego también fue seleccionado para The MIX Fall Online Showcase 2026, uno de los aproximadamente 65 títulos indie elegidos entre más de 500 candidaturas: una señal útil de atención de la industria para un proyecto tan temprano.
+
+## Requisitos del sistema y lo que necesitarás
+
+El juego de construcción de reinos Brushland es ligero según los estándares modernos. Las tres plataformas listan 4 GB de RAM y solo 1 GB de almacenamiento, lo que significa que debería funcionar cómodamente en portátiles y ordenadores de sobremesa antiguos.
+
+| Plataforma | SO | Procesador | Gráficos | Memoria / Almacenamiento |
+|---|---|---|---|---|
+| Windows | Windows 10/11 | Intel Core i3-8100 o AMD Ryzen 3 3200G | GPU compatible con DirectX 11 | 4 GB de RAM / 1 GB |
+| macOS | macOS 12 Monterey o posterior | Intel Core i3 (cuatro núcleos, 3,6 GHz) o Apple M1 | GPU Intel y AMD compatibles con Metal | 4 GB de RAM / 1 GB |
+| Linux | Ubuntu 22.04 o 24.04 (64 bits) | Intel Core i3-8100 o AMD Ryzen 3 3200G | GPU compatible con Vulkan y controladores actualizados | 4 GB de RAM / 1 GB |
+
+La compatibilidad con Steam Deck figura como desconocida, así que los jugadores de consolas portátiles deberían esperar una calificación verificada antes de planificar en torno a ella. Si tu máquina está cerca de los mínimos anteriores, lo más probable es que vayas bien.
+
+## Preguntas frecuentes
+
+**¿Ya ha salido el juego de construcción de reinos Brushland?**
+No. Está listado como «próximamente» en Steam sin fecha de lanzamiento confirmada. Puedes añadirlo a tu lista de deseados en la página de la tienda para recibir una notificación cuando se lance.
+
+**¿Necesito ser bueno en los constructores de ciudades para disfrutarlo?**
+No realmente. No hay reloj, ni estado de derrota, ni economía que optimizar. El juego de construcción de reinos Brushland premia la experimentación y te permite deshacer los errores, así que funciona bien como primer constructor o como juego para desconectar.
+
+**¿Puedo compartir los reinos que construyo?**
+Sí. Los reinos terminados se pueden guardar como códigos de texto cortos y enviarse a amigos, y el juego incluye 42 estilos de color para reestilizar una construcción completada. La compatibilidad con Steam Workshop y un editor de niveles lo amplían aún más.
+
+**¿En qué plataformas funcionará?**
+Windows 10/11, macOS 12 Monterey o posterior y Ubuntu 22.04/24.04 de 64 bits figuran todos con requisitos mínimos modestos: 4 GB de RAM y 1 GB de almacenamiento en cada uno.
+
+**¿Quién lo está haciendo?**
+Transhuman Design, el estudio de Michał Marcinkowski, que anteriormente creó Soldat y King Arthur's Gold. Se inspira en Tiny Glade, Townscaper, Islandoodle y el castillo de Neuschwanstein.
+
+El juego de construcción de reinos Brushland es, en esencia, una promesa: pinta unas cuantas casillas, da la bienvenida a unos cuantos aldeanos, responde a unas cuantas peticiones y acaba con un país que alguien ama. Es una propuesta modesta, y exactamente la adecuada para un constructor sin reloj en la pared.

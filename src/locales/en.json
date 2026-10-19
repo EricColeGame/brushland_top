@@ -9,7 +9,14 @@
   "nav": {
     "home": "Home",
     "menu": "Menu",
-    "toggleTheme": "Toggle theme"
+    "toggleTheme": "Toggle theme",
+    "guide": "Guide",
+    "mechanics": "Mechanics",
+    "tutorial": "Tutorial",
+    "features": "Features",
+    "release": "Release",
+    "community": "Community",
+    "platforms": "Platforms"
   },
   "home": {
     "meta": {
@@ -433,12 +440,40 @@
       "secondary": "Join the Official Discord"
     }
   },
-  "bosses": {},
+  "guide": {
+    "overviewTitle": "Brushland Guides",
+    "overviewDescription": "Practical Brushland guides for terrain painting, building, progression, and your first kingdom."
+  },
+  "mechanics": {
+    "overviewTitle": "Brushland Mechanics",
+    "overviewDescription": "How Brushland's terrain painting, settlement growth, resources, and kingdom management systems fit together."
+  },
+  "tutorial": {
+    "overviewTitle": "Brushland Tutorials",
+    "overviewDescription": "Step-by-step Brushland tutorials for building, expanding, and walking through your first kingdom."
+  },
+  "features": {
+    "overviewTitle": "Brushland Features",
+    "overviewDescription": "Explore Brushland's creative building, sandbox design, peaceful play, and kingdom-building features."
+  },
+  "release": {
+    "overviewTitle": "Brushland Release News",
+    "overviewDescription": "Track Brushland trailers, Steam updates, release timing, and confirmed launch details."
+  },
+  "community": {
+    "overviewTitle": "Brushland Community",
+    "overviewDescription": "Find Brushland community hubs, Discord and Reddit discussions, and player resources."
+  },
+  "platforms": {
+    "overviewTitle": "Brushland Platforms",
+    "overviewDescription": "Brushland PC and Steam details, supported systems, and minimum system requirements."
+  },
   "shared": {
     "wikiNavigation": "Wiki Navigation",
-    "activeCodes": "Active Codes",
+    "startHere": "Start Here",
+    "startHereDescription": "New to Brushland? Learn terrain painting, settlement growth, and the first steps toward a kingdom.",
+    "browseGuides": "Browse all guides",
     "updated": "Updated",
-    "viewAllCodes": "View all codes",
     "playOnRoblox": "Play on Roblox",
     "inThisSection": "In this section",
     "tableOfContents": "Table of Contents",
@@ -464,9 +499,9 @@
     "officialYoutube": "Transhuman Design YouTube",
     "vvBuilder": "Steam Community Hub",
     "beginnerGuide": "Beginner Guide",
-    "raceGuides": "Race Guides",
-    "bossGuides": "Boss Guides",
-    "buildGuide": "Build Guide",
+    "mechanicsGuides": "Mechanics Guides",
+    "featuresGuides": "Feature Guides",
+    "platformsGuides": "Platform Guides",
     "privacyPolicy": "Privacy Policy",
     "termsOfService": "Terms of Service"
   }

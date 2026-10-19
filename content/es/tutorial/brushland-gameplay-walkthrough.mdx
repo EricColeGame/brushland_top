@@ -1,0 +1,145 @@
+export const metadata = {
+  title: "Guía de juego de Brushland: cómo pintar un reino para principiantes",
+  description: "Una guía práctica de juego de Brushland que cubre las combinaciones de adyacencia de baldosas, las peticiones de los aldeanos, la pintura del terreno y las herramientas para compartir reinos.",
+  category: "tutorial",
+  date: "2026-10-20",
+}
+
+## Por qué existe esta guía de juego de Brushland antes del lanzamiento
+
+Brushland es un constructor de reinos de cuento de hadas en el que todo el mundo se pinta baldosa a baldosa, y esa única mecánica cambia por completo cómo deberías abordar todo lo demás. Si buscaste una guía de juego de Brushland y volviste con las manos vacías, es lo esperado: el juego sigue marcado como «próximamente», así que nadie ha grabado todavía una partida completa. Lo que sí existe es un desglose detallado del desarrollador sobre cómo reacciona la simulación a tus pinceladas, y esa es la base sobre la que tiene que construirse cualquier guía de juego real de Brushland.
+
+Esta guía toma esa información de diseño publicada y la convierte en algo que puedes usar de verdad: un recorrido estructurado del bucle central, las reglas de adyacencia que deciden en qué se convierte tu aldea y los pequeños hábitos que separan un reino ordenado de un montón disperso de casas.
+
+## Brushland de un vistazo: el bucle central
+
+Brushland está desarrollado y publicado por Transhuman Design, el estudio de Michał Marcinkowski, el creador de Soldat y King Arthur's Gold. Merece la pena conocer ese trasfondo. Es un diseñador que construye sistemas que responden a la entrada del jugador en lugar de campañas guionizadas, lo que significa que el juego premia la experimentación por encima de la memorización.
+
+El bucle que repetirás durante horas es corto:
+
+1. Pinta el terreno (roca, agua, hierba, campos).
+2. Pinta edificios, caminos y tierras de cultivo encima de él.
+3. Observa cómo las baldosas se resuelven en algo que no colocaste literalmente.
+4. Lee las peticiones que gritan tus aldeanos.
+5. Pinta la respuesta.
+6. Mira cómo el asentamiento crece hasta convertirse en algo más grande.
+
+| Detalle | Qué significa para tu forma de jugar |
+|---|---|
+| Desarrollador | Transhuman Design (Michał Marcinkowski) |
+| Género | Simulación indie / constructor de ciudades |
+| Verbo central | Pintar baldosas, no colocar prefabricados |
+| Estado de fracaso | Ninguno: no hay reloj ni condición de derrota |
+| Ritmo | Deliberadamente pausado y acogedor |
+| Modos | Un jugador, con un editor de niveles integrado |
+| Plataformas | Windows, macOS y SteamOS/Linux |
+| Estado de lanzamiento | Listado como «próximamente» en Steam |
+
+La fila más importante de esa tabla es el estado de fracaso. No existe. Las consecuencias en Brushland son cómicas y reversibles en lugar de punitivas, lo que te libera para ser desordenado a propósito.
+
+### Qué necesitas para ejecutarlo
+
+| Componente | Requisito mínimo |
+|---|---|
+| SO | Windows 10/11, macOS 12 Monterey o superior, Ubuntu 22.04/24.04 (64 bits) |
+| Procesador | Intel Core i3-8100 / AMD Ryzen 3 3200G, o Apple M1 / Intel i3 de cuatro núcleos a 3,6 GHz |
+| Memoria | 4 GB de RAM |
+| Gráficos | GPU compatible con DirectX 11, GPU compatible con Metal o GPU compatible con Vulkan |
+| Almacenamiento | 1 GB de espacio disponible |
+
+El listón es bajo. Un portátil modesto debería manejarlo sin problemas, lo que encaja con la personalidad relajada del juego, de esas de cogerlo veinte minutos.
+
+## Combinaciones de adyacencia de baldosas: el verdadero motor del juego
+
+Esta es la regla con la que tiene que empezar una buena guía de juego de Brushland: cada baldosa mira a sus vecinas y decide en qué convertirse. No estás colocando una iglesia. Estás creando las condiciones para que una casa decida convertirse en iglesia.
+
+Los ejemplos del desarrollador lo hacen concreto. Rodea una casa aislada con camino y se resuelve en una iglesia con campanario y aguja. Rodea una casa con campos y se convierte en un molino cuyas aspas giran de verdad. Mantén la densidad de edificios alrededor del núcleo de tu aldea y el asentamiento acabará decidiendo que se le ha quedado pequeño, y brotará un castillo con torres redondas y sombreros puntiagudos.
+
+| Qué pintas | Dónde lo pintas | Qué se resuelve |
+|---|---|---|
+| Camino | Rodeando una casa aislada | Iglesia con campanario y aguja |
+| Campos | Alrededor de una casa | Molino con aspas giratorias |
+| Vivienda densa | Alrededor del centro de la aldea | Castillo con torres redondas |
+| Roca | En cualquier lugar del mapa | Montañas que atrapan nieve |
+| Agua | Cerca de un desnivel | Ríos que se desploman en cascadas |
+
+### Por qué esto supera al diseño sobre plano
+
+Los jugadores que vienen de constructores de ciudades tradicionales suelen intentar planificar primero el trazado sobre el papel. Ese enfoque lucha contra el juego. Como la resolución depende de las vecinas, el hábito productivo es pintar por pasadas: primero formas aproximadas, luego anillos y bordes, después retoques. Estás esculpiendo condiciones, no dibujando un plano.
+
+El desarrollador señala que incluso quien sostiene el pincel puede sorprenderse con el resultado. Tómalo como una característica. Si una casa se convierte en molino cuando querías una panadería, no has perdido nada: has aprendido una regla.
+
+## Pintar el terreno: montañas, ríos y cascadas
+
+El terreno es donde la simulación presume con más claridad. Pinta roca y las montañas se alzan, lo bastante altas para atrapar nieve en sus cumbres. Pinta agua y los ríos encuentran su propia ruta cuesta abajo, derramándose por los bordes de los acantilados como cascadas en lugar de seguir un trazado que hayas dibujado.
+
+Esa autonomía es la clave. Tú sugieres; la tierra decide. Dos conclusiones prácticas:
+
+- **Trabaja de lo amplio a lo estrecho.** Delimita tus cordilleras y costas antes de tocar baldosas individuales.
+- **Deja que el agua te sorprenda.** Si un río se encamina hacia donde no esperabas, normalmente es una composición mejor que la que tenías en mente.
+
+También hay una red de seguridad que abarata los experimentos con el terreno. Según la descripción del desarrollador, lo peor que puedes hacer es pintar un lago debajo de una multitud: los aldeanos salen rodando gritando que se caen y luego se alejan nadando para buscar un nuevo hogar. Incluso eso se puede deshacer. Nada se pierde de forma permanente.
+
+| Pincel de terreno | Resultado típico | Buena práctica |
+|---|---|---|
+| Roca | Montañas con cumbres nevadas | Pinta las cordilleras a grandes trazos primero |
+| Agua | Ríos y cascadas que se trazan solos | Sigue la pendiente del terreno, no luches contra ella |
+| Hierba / terreno abierto | Base edificable para el asentamiento | Deja espacio para los anillos de camino |
+| Campos | Tierras agrícolas alrededor de las viviendas | Agrúpalos alrededor de las casas para activar molinos |
+
+## Peticiones de los aldeanos y crecimiento del reino
+
+En cuanto colocas un muelle frente al mar abierto, llegan los primeros barcos. Los aldeanos desembarcan con maletas, recorren tus caminos hasta la puerta de su casa y el humo empieza a salir de las chimeneas. A partir de ese momento, el asentamiento te habla.
+
+Las peticiones aparecen como avisos breves. Un aldeano pide un puente. Otro anuncia que quiere trabajo. Tu tarea es responder con pintura: un puente sobre el agua, una mina para los trabajadores, una casita con vistas por las que merezca la pena despertarse. Satisface a suficientes y corre la voz de que este es un lugar feliz: llegan más barcos, los caminos se ensanchan con el trasiego de gente y la aldea crece en altura hasta que se lee como un reino.
+
+Merece la pena escuchar las conversaciones ociosas como información de diagnóstico, no solo como ambientación. Los aldeanos cuentan lo que hacen (pescar, moler, holgazanear en los escalones) y de vez en cuando arrastran una oveja de un lado a otro sin explicación alguna.
+
+| Aviso | Qué indica | Respuesta sugerida |
+|---|---|---|
+| «¡Un puente, por favor!» | Una ruta está bloqueada por el agua | Pinta una baldosa de puente sobre el hueco |
+| «¡Busco trabajo!» | La población superó los empleos disponibles | Añade una mina o un edificio de producción |
+| Charla ociosa sobre molienda | El molino está funcionando | Deja intactos los campos de alrededor |
+| Llegan barcos nuevos | La reputación está subiendo | Sigue respondiendo a las peticiones para mantener el crecimiento |
+
+Los informes de la comunidad a partir de la cobertura de presentación sugieren que el sistema de peticiones es el principal motor del ritmo: es lo que sustituye al reloj. Responde a las peticiones y el reino se expande; ignóralas y simplemente te espera.
+
+## Compartir reinos, estilos de color y herramientas del Workshop
+
+Un reino terminado no es un callejón sin salida. Puedes probar 42 estilos de color distintos sobre el mismo trazado, una forma rápida de encontrar un ambiente: mañana brumosa, pleno verano, oro otoñal. Cuando des con uno que te guste, toda la construcción se comprime en un breve código de texto que puedes enviar a un amigo como si fuera una carta.
+
+Además, la lista de características incluye compatibilidad con Steam Workshop, un editor de niveles, guardados en Steam Cloud, logros y uso compartido familiar. Para un juego tan tranquilo, es probable que el Workshop sea el lugar donde vivan las ideas más extrañas de la comunidad.
+
+| Herramienta | Qué hace | Por qué importa |
+|---|---|---|
+| Estilos de color | 42 tratamientos de paleta | Reestiliza al instante un reino terminado |
+| Códigos para compartir | Exportación breve en texto de tu construcción | Intercambia reinos sin transferir archivos |
+| Editor de niveles | Crea escenarios personalizados | Monta tus propios retos |
+| Steam Workshop | Explora y comparte creaciones | Mapas nuevos sin fin cuando termines el tuyo |
+| Steam Cloud | Sincroniza partidas entre equipos | Retoma donde lo dejaste |
+
+Si quieres la fuente autorizada sobre la fecha de lanzamiento y las novedades de características, la [página oficial de Brushland en Steam](https://store.steampowered.com/app/5163450/Brushland/) es el lugar que hay que vigilar: añadirlo a la lista de deseados activa una notificación cuando salga.
+
+## Preguntas frecuentes
+
+### ¿Existe ya una guía de juego completa de Brushland?
+
+Todavía no. El juego está listado como «próximamente», así que no existe ninguna partida completa grabada. Esta guía de juego de Brushland se basa en los detalles de diseño publicados por el desarrollador y cubre los sistemas con los que interactuarás desde tu primer minuto.
+
+### ¿Puedo fracasar o perder progreso en Brushland?
+
+No. No hay reloj ni estado de fracaso. El resultado más duro descrito por el desarrollador es ahogar accidentalmente a un grupo de aldeanos, que se ponen a nadar de inmediato para reasentarse, y hasta eso se puede deshacer. Juega con audacia.
+
+### ¿Cómo hago una iglesia o un molino?
+
+No los colocas directamente. Rodea una casa aislada con baldosas de camino para producir una iglesia con campanario y aguja, o rodea una casa con campos para producir un molino con aspas que funcionan. La adyacencia lo es todo.
+
+### ¿Puedo compartir el reino que construyo?
+
+Sí. Las construcciones terminadas se pueden exportar como un breve código de texto y enviarse a otro jugador, y la compatibilidad con Steam Workshop más el editor de niveles hacen que el contenido creado por la comunidad debería alargar el juego mucho más allá del lanzamiento.
+
+## Consejos finales para tu primer reino
+
+Trata tu primera hora como una guía de juego de Brushland creada por ti mismo. Pinta una costa, coloca un muelle y observa quién llega. Responde a las primeras peticiones antes de empezar a decorar: es más fácil dar estilo al crecimiento una vez que existe. Mantén los anillos de camino ajustados alrededor de las casas aisladas para conseguir iglesias en lugar de expansión desordenada, y agrupa los campos alrededor de las viviendas para activar molinos pronto.
+
+Sobre todo, resiste el impulso de planificar. El placer aquí es ver cómo las baldosas negocian con sus vecinas y producen algo que solo pretendías a medias. Pinta a grandes rasgos, escucha a tus aldeanos y deja que el reino te responda.

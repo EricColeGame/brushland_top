@@ -1,0 +1,116 @@
+export const metadata = {
+  title: "Requisitos del sistema de Brushland: especificaciones mínimas para Windows, macOS y Linux",
+  description: "Requisitos del sistema de Brushland explicados: especificaciones mínimas para Windows, macOS y Linux, además del estado en Steam Deck y consejos para ejecutar este acogedor juego de construcción de reinos.",
+  category: "platforms",
+  date: "2026-10-20",
+}
+
+Brushland parece el tipo de acogedor constructor de reinos en el que podrías perder una tarde: pintas unas cuantas casillas, surgen montañas y los aldeanos se van a pescar mientras un castillo brota silenciosamente en una esquina. Antes de añadirlo a tu lista de deseos, probablemente quieras saber si tu equipo puede ejecutarlo de verdad, y ahí es exactamente donde importan los requisitos del sistema de Brushland. La versión corta es que los requisitos del sistema de Brushland son sorprendentemente ligeros, pero hay algunos detalles específicos de cada plataforma que conviene entender antes del día de lanzamiento.
+
+## Requisitos del sistema de Brushland de un vistazo
+
+Brushland es un constructor de reinos de cuento de hadas en desarrollo en Transhuman Design, el estudio detrás de Soldat y King Arthur's Gold. Actualmente aparece como «próximamente» en Steam, así que la única orientación oficial sobre hardware disponible hoy es el bloque de especificaciones mínimas de [la página oficial de Brushland en Steam](https://store.steampowered.com/app/5163450/Brushland/). Esta es esa información consolidada en una sola vista:
+
+| Plataforma | SO | Procesador | Memoria | Gráficos | Almacenamiento |
+|---|---|---|---|---|---|
+| Windows | Windows 10 / 11 | Intel Core i3-8100 o AMD Ryzen 3 3200G | 4 GB de RAM | GPU compatible con DirectX 11 | 1 GB de espacio disponible |
+| macOS | macOS 12 Monterey o posterior | Intel Core i3 (cuatro núcleos, 3,6 GHz) o Apple M1 | 4 GB de RAM | GPU Intel y AMD compatibles con Metal | 1 GB de espacio disponible |
+| Linux | Ubuntu 22.04 / 24.04 (64 bits) | Intel Core i3-8100 o AMD Ryzen 3 3200G | 4 GB de RAM | GPU compatible con Vulkan y controladores actualizados | 1 GB de espacio disponible |
+
+Hay tres detalles que llaman la atención. Primero, la memoria se queda en 4 GB en todas las plataformas, una cifra lo bastante baja como para que casi cualquier ordenador vendido en los últimos años supere el listón. Segundo, el espacio de instalación es de solo 1 GB: no es un título que te vaya a obligar a desinstalar otros tres juegos. Tercero, y lo más importante, Transhuman Design no ha publicado ninguna franja de requisitos recomendados, así que toma los mínimos como un suelo y no como un objetivo.
+
+## Windows, macOS y Linux: desglose completo
+
+### Windows 10 y 11
+
+| Componente | Mínimo | Qué significa en la práctica |
+|---|---|---|
+| SO | Windows 10 u 11 | Las versiones anteriores de Windows no figuran como compatibles |
+| Procesador | Intel Core i3-8100 / AMD Ryzen 3 3200G | Ambos son procesadores de escritorio de cuatro núcleos de gama de entrada de la era 2017–2019 |
+| Memoria | 4 GB de RAM | Suficiente para iniciar; justo si usas muchas aplicaciones a la vez |
+| Gráficos | GPU compatible con DirectX 11 | Incluye la mayoría de los gráficos integrados de la última década |
+| Almacenamiento | 1 GB de espacio disponible | Insignificante para cualquier unidad moderna |
+
+Las dos CPU mencionadas son piezas modestas de cuatro núcleos, no buques insignia para gaming. El Core i3-8100 funciona a 3,6 GHz con cuatro núcleos y sin hyperthreading, mientras que el Ryzen 3 3200G combina cuatro núcleos con gráficos integrados Vega 8. Si tu PC se montó o se compró en algún momento posterior a 2018 aproximadamente, probablemente ya estés en este nivel o por encima.
+
+La línea de gráficos es deliberadamente amplia. «Compatible con DirectX 11» abarca los gráficos integrados Intel UHD e Iris, los chips integrados AMD Vega y RDNA y, esencialmente, todas las GPU dedicadas lanzadas en los últimos más de diez años. No se indica ninguna cifra de VRAM, lo que suele ser señal de un juego que se apoya en un arte estilizado en lugar de un trabajo intensivo de texturas.
+
+### macOS y Linux
+
+| Componente | Mínimo para macOS | Mínimo para Linux |
+|---|---|---|
+| SO | macOS 12 Monterey o posterior | Ubuntu 22.04 / 24.04 (64 bits) |
+| Procesador | Intel Core i3 (cuatro núcleos, 3,6 GHz) o Apple M1 | Intel Core i3-8100 / AMD Ryzen 3 3200G |
+| Memoria | 4 GB de RAM | 4 GB de RAM |
+| Gráficos | GPU Intel y AMD compatibles con Metal | GPU compatible con Vulkan y controladores actualizados |
+| Almacenamiento | 1 GB de espacio disponible | 1 GB de espacio disponible |
+
+La ficha para Mac es notable porque Apple M1 aparece por su nombre, lo que sugiere compatibilidad nativa con Apple Silicon en lugar de una capa de traducción Rosetta. Los Mac con Intel necesitan un chip de cuatro núcleos a aproximadamente 3,6 GHz y una GPU compatible con Metal; como Metal está presente en todos los Mac desde hace años, ese requisito principalmente descarta hardware muy antiguo, no equipos recientes.
+
+En Linux, el factor decisivo no es la CPU, sino la pila de controladores. Brushland pide una GPU compatible con Vulkan y controladores actuales, y Ubuntu 22.04 y 24.04 son las distribuciones probadas. Es probable que otras distribuciones modernas funcionen, pero no aparecen en la lista oficial, así que prepárate para verificar tú mismo tu configuración de Vulkan.
+
+## Qué significan los requisitos del sistema de Brushland para tu equipo
+
+Como el juego aún no se ha lanzado, todavía no existen datos públicos de benchmark. Lo que sí podemos hacer es comparar configuraciones de hardware habituales con los mínimos publicados y darte una lectura realista.
+
+| Tu hardware | Resultado probable |
+|---|---|
+| Portátil moderno con gráficos integrados Intel Iris Xe o AMD Radeon | Cómodamente por encima del mínimo |
+| Ordenador de sobremesa con una GTX 1050, RX 560 o algo más nuevo | Muy por encima del mínimo |
+| Mac con Apple M1, M2 o M3 | Por encima del mínimo, con compatibilidad nativa con Apple Silicon indicada |
+| PC de oficina de 2018 con un i3 o Ryzen 3 y 8 GB de RAM | Cumple o supera cada línea |
+| Portátil de doble núcleo de 2015 | Por debajo del mínimo de CPU: espera problemas |
+| Equipo con solo 2–4 GB de RAM y una GPU integrada antigua | No recomendado |
+| Steam Deck | Compatibilidad actualmente indicada como desconocida |
+
+El patrón aquí es simple: las exigencias de Brushland se sitúan cerca de la parte más baja de lo que piden las tiendas digitales modernas. Un constructor basado en pintar casillas que genera el terreno de forma procedural no necesita cargar texturas enormes en streaming ni renderizar docenas de personajes con muchos polígonos, lo cual concuerda con una instalación de 1 GB y un techo de memoria de 4 GB. Son buenas noticias si trabajas con un portátil antiguo o con un equipo que usas principalmente para estudiar.
+
+La advertencia es la ausencia de requisitos recomendados. Las especificaciones mínimas indican que el juego funcionará, no que lo hará con fluidez a resoluciones altas. Si usas un monitor 4K o una pantalla de alta frecuencia de actualización, cuenta con ajustar la configuración y espera a los informes de rendimiento de los jugadores tras el lanzamiento antes de dar nada por sentado.
+
+## Compatibilidad con Steam Deck y funciones de la plataforma
+
+Actualmente, Steam indica la compatibilidad de Brushland con Steam Deck como **Desconocida**, lo que significa que Valve aún no ha terminado su proceso de verificación. Dados unos requisitos de escritorio tan ligeros, el juego parece una opción plausible para jugar en modo portátil, pero «parece plausible» no es lo mismo que «verificado». Trata cualquier afirmación sobre compatibilidad con Deck que veas antes del lanzamiento como especulación.
+
+Más allá del hardware, la página de la tienda confirma un conjunto sólido de funciones para un constructor de este género:
+
+| Función | Estado | Por qué importa |
+|---|---|---|
+| Un jugador | Compatible | No se indica cooperativo ni multijugador |
+| Logros de Steam | Compatible | Objetivos más allá del modo sandbox |
+| Steam Workshop | Compatible | Compartir e instalar creaciones de la comunidad |
+| Steam Cloud | Compatible | Las partidas guardadas te siguen entre equipos |
+| Estadísticas | Compatible | Registra tu historial de juego |
+| Editor de niveles | Incluido | Creación de mapas personalizados integrada |
+| Compartir en familia | Compatible | Los hogares pueden compartir el acceso |
+| Idioma de la interfaz | Solo inglés | No se indican pistas de audio ni subtítulos completos |
+
+La combinación de Workshop y editor de niveles es lo más destacado. Para un juego construido en torno a pintar el terreno casilla a casilla, los mapas y escenarios creados por la comunidad podrían alargar considerablemente su vida útil. El hecho de que la interfaz sea solo en inglés merece mención si esperabas menús localizados en el lanzamiento.
+
+## Consejos para cumplir los requisitos del sistema de Brushland con un presupuesto ajustado
+
+Si tu equipo está al límite, estos pasos te ayudarán a sacarle el máximo partido, sin necesidad de actualizar componentes.
+
+- **Identifica primero tu hardware exacto.** En Windows, abre el Administrador de tareas y consulta la pestaña Rendimiento; en macOS, usa Acerca de este Mac; en Linux, ejecuta `lscpu` y `vulkaninfo`.
+- **Actualiza los controladores gráficos.** En Linux especialmente, el requisito de Vulkan depende por completo de la versión de tus controladores. Tanto los controladores Mesa como los propietarios deben estar actualizados.
+- **Libera más de 1 GB.** La cifra de almacenamiento indicada es el tamaño de instalación, no el espacio de trabajo. Deja unos cuantos gigabytes de margen para partidas guardadas, cachés de shaders y actualizaciones.
+- **Cierra aplicaciones en segundo plano en equipos con 4 GB.** Un navegador con veinte pestañas se comerá tu presupuesto de RAM antes de que el juego siquiera cargue.
+- **Comprueba la versión de tu SO.** Windows 10/11, macOS 12 Monterey y Ubuntu 22.04 o 24.04 son las bases indicadas; un SO desactualizado es el requisito más fácil de incumplir.
+- **No actualices el hardware todavía.** Sin fecha de lanzamiento ni especificaciones recomendadas publicadas, comprar componentes ahora es prematuro. Añade el juego a tu lista de deseos y vuelve a consultarlo cuando aparezcan las especificaciones finales y los informes de los jugadores.
+
+Una nota práctica más: las especificaciones publicadas meses antes del lanzamiento suelen revisarse a medida que termina el trabajo de optimización. Consultar la página de Steam más cerca del lanzamiento es la única forma fiable de conocer las cifras definitivas.
+
+## Preguntas frecuentes
+
+**¿Cuáles son los requisitos mínimos del sistema de Brushland?**
+En Windows necesitas Windows 10 u 11, un Intel Core i3-8100 o AMD Ryzen 3 3200G, 4 GB de RAM, una GPU compatible con DirectX 11 y 1 GB de espacio libre. En Linux se pide la misma CPU y memoria con una GPU compatible con Vulkan en Ubuntu 22.04 o 24.04, y macOS necesita Monterey o posterior con un chip M1 o Intel de cuatro núcleos.
+
+**¿Puede mi Mac ejecutar Brushland?**
+Si es un Mac con Apple Silicon o un modelo Intel con un procesador de cuatro núcleos a 3,6 GHz, ejecuta macOS 12 Monterey o posterior y tiene una GPU compatible con Metal con 4 GB de RAM, cumple los mínimos publicados. Los Mac Intel muy antiguos que se quedaron en versiones anteriores de macOS no cumplirán los requisitos.
+
+**¿Está Brushland verificado para Steam Deck?**
+Todavía no. Steam indica la compatibilidad con Deck como desconocida, así que no hay una calificación oficial. Los bajos requisitos del sistema de Brushland sugieren que podría funcionar bien en el hardware, pero espera la verificación de Valve antes de contar con ello.
+
+**¿Cambiarán los requisitos del sistema de Brushland antes del lanzamiento?**
+Es posible. El juego sigue marcado como «próximamente» y no se han publicado especificaciones recomendadas. Los desarrolladores suelen ajustar tanto los requisitos mínimos como los recomendados durante la optimización final, así que confirma las cifras en la página de la tienda cerca del lanzamiento.
+
+Por ahora, la conclusión es alentadora: es uno de los constructores de reinos menos exigentes en el horizonte, y la mayoría de los ordenadores de los últimos años deberían superar el listón sin problemas.

@@ -1,0 +1,131 @@
+export const metadata = {
+  title: "Les mécaniques de construction de Brushland expliquées : comment peindre des tuiles bâtit un royaume",
+  description: "Un guide pratique des mécaniques de construction de Brushland : comment la peinture de tuiles, les règles de voisinage et les requêtes des villageois transforment une terre peinte en royaume vivant.",
+  category: "mechanics",
+  date: "2026-10-20",
+}
+
+Brushland est un jeu de construction de royaume féerique où vous ne faites jamais glisser un seul bâtiment en place — vous peignez le terrain, et le monde décide de ce qui doit s'y trouver. Comprendre les **mécaniques de construction de Brushland** se résume en réalité à une seule règle : chaque tuile observe ses voisines et se transforme en conséquence. Une fois ce déclic fait, une poignée de cases peintes devient un hameau, puis une ville, puis un royaume avec des tours rondes coiffées de chapeaux pointus — et vous y êtes parvenu avec un pinceau plutôt qu'avec un menu.
+
+C'est pourquoi ces mécaniques importent. La plupart des jeux de construction de villes vous demandent de choisir un bâtiment dans une liste. Brushland vous demande de décrire une situation, puis vous récompense avec une architecture que vous n'aviez peut-être pas anticipée. Ce guide décompose la boucle, les règles de transformation, les systèmes de terrain et les filets de sécurité qui font que l'ensemble ressemble à un jeu plutôt qu'à de l'optimisation.
+
+## La boucle centrale des mécaniques de construction de Brushland
+
+Chaque session suit le même rythme en trois temps, et la description du développeur sur la [page Steam officielle de Brushland](https://store.steampowered.com/app/5163450/Brushland/) la formule ainsi : « façonner une terre, la regarder se remplir de vie, et prendre soin des gens qui y ont élu domicile ». Les mécaniques de construction de Brushland se situent entièrement dans ce deuxième temps — la terre répond, et vous répondez en retour.
+
+| Étape | Ce que vous faites | Ce que fait le jeu | Pourquoi c'est important |
+|---|---|---|---|
+| 1. Façonner | Peindre roche, eau, champs, routes | Le terrain s'élève, les rivières trouvent leur chemin, les falaises deviennent des cascades | Installe la scène physique |
+| 2. Peupler | Placer un ponton en pleine mer, entourer une maison de route | Des bateaux arrivent, les villageois entrent avec leurs valises | Lance la croissance de la population |
+| 3. Entretenir | Répondre aux demandes de ponts, mines, chaumières | De nouveaux types de bâtiments apparaissent, les routes s'élargissent | Débloque le palier suivant |
+| 4. Étendre | Continuer à peindre autour des groupes existants | Le village devient ville, puis château | Progression à long terme |
+
+Le détail important est qu'aucun élément de ce tableau n'est une commande « construire ». Il n'y a pas de file de construction et aucun coût en ressources affiché dans un panneau. L'acte de peindre est l'entrée, et la logique des tuiles est la sortie. Les joueurs qui tentent de planifier un agencement parfait sur papier finissent généralement par lutter contre le système — la meilleure approche consiste à peindre un peu, à observer ce que les tuiles décident, puis à peindre davantage.
+
+### Commencez petit, puis lisez le résultat
+
+Une seule maison sur une route fait très peu. Entourez-la de champs et elle devient un moulin dont les ailes tournent réellement. Entourez une maison isolée de route et elle devient une église avec un clocher et une flèche. Ces deux résultats suffisent à révéler la philosophie de conception : l'adjacence est le véritable menu de construction.
+
+## La règle de voisinage : comment les tuiles décident de ce qu'elles deviennent
+
+Si vous ne devez retenir qu'une chose des **mécaniques de construction de Brushland**, retenez la règle de voisinage. Chaque tuile évalue ce qui se trouve à côté d'elle et choisit une forme à partir de ce contexte. Le peintre ne place pas une église ; le peintre place une maison dans une situation qui signifie « église ».
+
+| Motif peint | Résultat émergent | À retenir en pratique |
+|---|---|---|
+| Maison isolée | Maison simple | Bonne comme graine, pas comme destination |
+| Maison entourée de route | Église avec clocher et flèche | Les routes sont structurelles, pas seulement décoratives |
+| Maison entourée de champs | Moulin aux ailes tournantes | L'agriculture génère des repères verticaux |
+| Croissance dense et répétée du village | Château aux tours rondes | L'échelle elle-même est un déclencheur de transformation |
+| Lac peint sous une foule | Les villageois font la roue et nagent au loin | L'eau est une frontière stricte pour la population |
+
+Il s'agit de génération procédurale au service du charme plutôt que de l'aléatoire. Les résultats sont suffisamment déterministes pour être visés une fois les motifs connus, mais suffisamment variés pour que le développeur admette que même le peintre peut être surpris.
+
+### Astuces pratiques pour exploiter l'adjacence
+
+- **Peignez des anneaux, pas des points.** Une seule tuile de route ne fait rien ; une boucle de route autour d'une maison la transforme en église.
+- **Regroupez les champs avant de regrouper les maisons.** Les champs sont le moyen le moins coûteux de convertir une maison simple en moulin, un ancrage visuel fort pour un nouveau quartier.
+- **Laissez de la place au château.** Le château apparaît à mesure que le village grandit, donc un entassement précoce peut vous enfermer.
+- **Traitez l'eau comme un mur.** Tout ce que vous peignez en lac repousse entièrement les villageois hors de cet espace.
+
+## Peindre le terrain : roche, rivières et cascades
+
+Le terrain est la couche de fondation des **mécaniques de construction de Brushland**, et c'est l'endroit le plus indulgent pour expérimenter. Là où vous posez de la roche, des montagnes s'élèvent et captent la neige. L'eau suit la gravité, trouve son propre chemin descendant et bascule par-dessus les falaises en cascades. Vous ne sculptez pas un maillage — vous décrivez un paysage et laissez les tuiles le résoudre.
+
+| Type de pinceau | Comportement émergent | Meilleur usage |
+|---|---|---|
+| Roche / pierre | Des montagnes s'élèvent, la neige apparaît en altitude | Ligne d'horizon, arrière-plans spectaculaires, frontières naturelles |
+| Eau | Les rivières se tracent elles-mêmes vers le bas | Cascades en bord de falaise, couloirs pittoresques |
+| Champs | Permet les transformations agricoles | Moulins, quartiers ruraux |
+| Route | Relie les portes, améliore les bâtiments adjacents | Conversion en église, routes plus larges ensuite |
+| Pleine mer + ponton | Des bateaux arrivent avec de nouveaux villageois | Déclencheur de croissance de la population |
+
+Comme les rivières choisissent leur propre chemin, le flux de travail intelligent consiste à peindre d'abord les hauteurs, puis l'eau. Si vous peignez l'eau avant que la montagne n'existe, la rivière n'a nulle part de spectaculaire d'où tomber. Peignez la falaise, puis laissez l'eau trouver la chute.
+
+### Les cascades sont un signal, pas une décoration
+
+Une cascade est ce que le jeu vous montre quand l'eau rencontre une différence de hauteur qu'elle ne peut pas contourner. Cela en fait un outil de diagnostic utile : si vous attendiez une cascade et obtenez un lac plat, votre dénivelé est trop doux. Ajoutez de la roche, et la chute revient.
+
+## Villageois, pontons et requêtes : la couche de croissance
+
+La population est le moment où les **mécaniques de construction de Brushland** cessent d'être purement spatiales et deviennent conversationnelles. Construisez un ponton en pleine mer et les premiers bateaux arrivent. Les villageois débarquent avec leurs valises, remontent les routes jusqu'à leurs portes, et la fumée commence à s'élever des cheminées. Demandez-leur ce qu'ils font et vous obtenez des réponses comme « Parti pêcher », « Moud joyeusement » ou « Flâne sur le pas de la porte » — et parfois quelqu'un portant un mouton qui ne voit aucune raison de s'expliquer.
+
+Ensuite, les villageois commencent à demander des choses. C'est la couche de quêtes du jeu, et elle est délibérément peu stressante.
+
+| Requête de villageois | Ce que vous peignez | Résultat |
+|---|---|---|
+| « Un pont, s'il vous plaît ! » | Un passage au-dessus de l'eau | Relie des quartiers séparés |
+| « Du travail ! » | Une mine ou un site d'emploi similaire | Garde les habitants employés et satisfaits |
+| Une chaumière avec vue | Du logement sur un terrain pittoresque | Augmente l'attrait de la zone |
+| Plus d'arrivées | Des pontons supplémentaires et des routes plus larges | Palier de population supérieur |
+
+La nouvelle se répand que l'endroit est heureux, davantage de bateaux arrivent, et les routes s'élargissent visiblement sous tous ces pas. Cet élargissement vaut la peine d'être observé — c'est le relevé visuel le plus clair que vos décisions concernant les **mécaniques de construction de Brushland** fonctionnent. Si les routes restent étroites, votre village n'est pas encore florissant.
+
+### Lire la boucle de rétroaction
+
+- Le passage des piétons qui élargit une route = la croissance est confirmée.
+- La fumée des cheminées = les maisons sont occupées.
+- De nouveaux bateaux au ponton = les requêtes ont été satisfaites.
+- Le silence et les routes vides = peignez ce que les villageois ont demandé.
+
+## Règles de bac à sable, couleurs et outils de partage
+
+La partie la plus sous-estimée des **mécaniques de construction de Brushland** est qu'il n'y a ni horloge ni état d'échec. Vous ne pouvez pas perdre. Le pire résultat décrit est de peindre un lac sous une foule — ils font la roue en criant qu'ils tombent, puis nagent au loin pour trouver une nouvelle maison — et même cela peut être annulé. Pour les joueurs venus de jeux de construction teintés de survie, cela change la façon dont vous devriez jouer : expérimentez hardiment, car les erreurs sont réversibles.
+
+| Système | Comment ça marche | Pourquoi c'est utile |
+|---|---|---|
+| Pas de minuterie | Rien n'avance tant que vous ne peignez pas | Jouez à votre rythme |
+| Pas d'échec | Aucune condition de défaite n'existe | Élimine l'anxiété d'optimisation |
+| Annulation | Même les villageois déplacés peuvent être restaurés | Expérimentation sûre |
+| 42 apparences de couleurs | Appliquez une palette à un royaume terminé | Rafraîchissement visuel instantané |
+| Partage par code texte | Pliez un royaume en un court code | Envoyez une construction à un ami comme une lettre |
+| Steam Workshop + éditeur de niveaux | Partagez et créez du contenu personnalisé | Longévité communautaire |
+
+Cette dernière ligne compte pour le long terme. La fiche Steam confirme la prise en charge du Steam Workshop, des succès Steam, du Steam Cloud et d'un éditeur de niveaux inclus — ainsi, les règles de tuiles que vous apprenez dans le bac à sable principal sont aussi la matière première des cartes créées par la communauté et des royaumes partagés.
+
+Comme Brushland est encore annoncé comme « à paraître », il n'existe pas encore de large base d'expérience pratique des joueurs sur laquelle s'appuyer. Les mécaniques décrites ici proviennent des annonces et de la description du magasin du développeur plutôt que de rapports de la communauté ; considérez donc les motifs de transformation spécifiques comme des exemples documentés plutôt que comme une liste exhaustive. La règle sous-jacente — les tuiles réagissent à leurs voisines — est la partie qui tiendra à mesure que d'autres motifs seront découverts.
+
+### Une séquence d'ouverture adaptée aux débutants
+
+1. Peignez un petit carré de roche comme arrière-plan.
+2. Ajoutez un bord de falaise, puis laissez l'eau en tomber.
+3. Peignez une route et une maison sur cette route.
+4. Entourez la maison de route pour déclencher une église.
+5. Peignez des champs à proximité et faites pousser un moulin.
+6. Ajoutez la pleine mer et un ponton pour lancer les arrivées.
+7. Répondez aux premières requêtes avant de vous étendre davantage.
+
+## FAQ
+
+**Est-ce que je place directement des bâtiments dans Brushland ?**
+Non. Les **mécaniques de construction de Brushland** privilégient la peinture : vous choisissez des tuiles de terrain et d'infrastructure, et les bâtiments émergent de la façon dont ces tuiles se relient entre elles. Votre contrôle vient de l'agencement, pas d'un menu de construction.
+
+**Que se passe-t-il si je peins de l'eau sous mes villageois ?**
+Ils font la roue, se plaignent de tomber et nagent au loin pour trouver une nouvelle maison. Le développeur note que même cela peut être annulé, donc il n'y a aucune perte permanente.
+
+**Y a-t-il un état d'échec ou une limite de temps ?**
+Il n'y a ni horloge ni condition d'échec. Rien n'avance tant que vous ne continuez pas à peindre, ce qui rapproche le jeu d'un jouet de diorama plutôt que d'un jeu de gestion.
+
+**Puis-je partager le royaume que je construis ?**
+Oui. Un royaume terminé peut être plié en un court code texte et envoyé à un ami, et il peut aussi être réhabillé avec 42 apparences de couleurs différentes. Le Steam Workshop et l'éditeur de niveaux inclus étendent encore ce partage.
+
+Maîtriser les **mécaniques de construction de Brushland** tient moins de la mémorisation de recettes que de l'apprentissage de la pensée en adjacence. Peignez une situation, observez les tuiles répondre, et laissez le royaume vous dire ce qu'il veut devenir ensuite.
